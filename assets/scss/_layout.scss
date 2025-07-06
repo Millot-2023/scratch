@@ -1,0 +1,37 @@
+
+@use 'variables'; // <-- Cette ligne DOIT être au tout début du fichier
+
+
+div.deuxcols{
+display:flex;
+flex-direction: column;
+background-color: variables.$fond2blocs;
+gap:20px;
+}
+
+div.troiscols{
+display:flex;
+flex-direction: column;
+background-color: variables.$fond3blocs;
+gap:20px;
+}
+
+
+
+
+     // Media query pour les écrans à partir de 768px de large
+@media (min-width: 768px) {
+div.deuxcols{
+display:flex;
+flex-direction: row;
+background-color: variables.$fond2blocs;
+}
+div.troiscols{
+display:flex;
+flex-direction: row;
+background-color: variables.$fond3blocs;
+
+
+}
+
+}   

@@ -1,0 +1,45 @@
+// scss/_footer.scss
+
+@use "sass:color"; // Importe le module de couleur pour color.adjust()
+@use "variables";  // Importe votre module de variables pour $primary-color et $white
+
+.main-footer {
+    // Correction de darken() par color.adjust() et utilisation de variables.$primary-color
+    background-color: color.adjust(variables.$primary-color, $lightness: -15%);
+    color: variables.$white; // Utilisation de variables.$white
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content p {
+    font-size: 0.9em;
+    margin: 0;
+    color:white;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: variables.$white; // Utilisation de variables.$white
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: variables.$primary-color; // Utilisation de variables.$primary-color
+}
