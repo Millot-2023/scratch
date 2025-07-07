@@ -398,17 +398,12 @@ code {
   scroll-margin-top: 80px;
 }
 
-/*BLOCS*/
-/*.deuxBlocs{background-color:red;}
-
-.quatresBlocs{background-color:green;}*/
-/* --- Media Queries pour le Responsive --- */
+/*BLOCS*/ /* --- Media Queries pour le Responsive --- */
 @media (max-width: 769px) { /*EN DESSOUS DE*/
   .deuxBlocs {
     /*background-color:orange;*/
     display: flex;
     flex-direction: column;
-    gap: 25px;
   }
   .quatresBlocs {
     /*background-color:yellow;*/

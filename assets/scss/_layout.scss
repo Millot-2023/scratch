@@ -12,46 +12,37 @@
 
 
 
-/*BLOCS*/
-
-/*.deuxBlocs{background-color:red;}
-
-.quatresBlocs{background-color:green;}*/
-
-/* --- Media Queries pour le Responsive --- */
+/*BLOCS*//* --- Media Queries pour le Responsive --- */
 @media (max-width: 769px) {/*EN DESSOUS DE*/
 
 .deuxBlocs{
-/*background-color:orange;*/
-display: flex;
-flex-direction: column;
-gap:25px;
-// margin-bottom: 20px;
-}
+     /*background-color:orange;*/
+     display: flex;
+     flex-direction: column;
+     }
 .quatresBlocs{
-/*background-color:yellow;*/
-display: flex;
-flex-direction: column;
-gap:25px;
-// margin-bottom: 20px;
-}
+     /*background-color:yellow;*/
+     display: flex;
+     flex-direction: column;
+     gap:25px;
+     }
 }
 
 @media (min-width: 768px) {/*AU DELA DE*/
 
 .deuxBlocs{
-/*background-color:yellow;*/
-display: flex;
-flex-direction: row;
-gap:25px;
-margin-bottom: 20px;
-}
+     /*background-color:yellow;*/
+     display: flex;
+     flex-direction: row;
+     gap:25px;
+     margin-bottom: 20px;
+     }
 .quatresBlocs{
-/*background-color:orange;*/
-display: flex;
-flex-direction: row;
-gap:25px;
-margin-bottom: 20px;
-}
+     /*background-color:orange;*/
+     display: flex;
+     flex-direction: row;
+     gap:25px;
+     margin-bottom: 20px;
+     }
 }
 
