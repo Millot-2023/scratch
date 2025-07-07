@@ -72,20 +72,15 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  /*color: #333;*/
   line-height: 1.6;
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 36pt;
-  color: blue;
+  font-size: 48pt;
+  color: green;
   line-height: 1.2;
-  /*****/
-  /*margin-top: 0.5em;*/
-  padding-top: 0.5em; /*SOLUTION !!!*/
-  /*****/
   margin-bottom: 0.5em;
 }
 
@@ -353,33 +348,18 @@ p {
   color: #28a745;
 }
 
-div.deuxcols {
-  display: flex;
-  flex-direction: column;
-  background-color: pink;
-  gap: 20px;
+/* Fichier: assets/scss/_layout.scss */
+.main-content-wrapper {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 40px; /*MARGES LATERALLE DES PAGES*/
+  padding-top: 120px;
 }
 
-div.troiscols {
-  display: flex;
-  flex-direction: column;
-  background-color: orange;
-  gap: 20px;
+#premier-bloc {
+  scroll-margin-top: 80px;
 }
 
-@media (min-width: 768px) {
-  div.deuxcols {
-    display: flex;
-    flex-direction: row;
-    background-color: pink;
-  }
-  div.troiscols {
-    display: flex;
-    flex-direction: row;
-    background-color: orange;
-  }
-}
-/* --- Hero Section --- */
 .hero-section {
   margin-top: 80px;
 }
@@ -483,7 +463,6 @@ div.troiscols {
     transform: translateY(-8px);
   }
 }
-/* Media Queries pour les écrans mobiles */
 @media (max-width: 768px) {
   .hero-section {
     margin-top: 80px;

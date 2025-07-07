@@ -1,16 +1,10 @@
 // Fichier: _hero.scss
 
-@use 'variables'; // Assure-toi que ton fichier _variables.scss existe et est correctement configuré.
+@use 'variables';
 
-/* --- Hero Section --- */
-// Styles pour la section parente du hero
 .hero-section {
-    // Cette marge pousse TOUTE la section hero vers le bas,
-    // exactement sous le header fixe de 80px de haut. C'est nécessaire
-    // si le header est en position fixe et se superpose.
     margin-top: 80px; 
     
-    // NOUVEAU STYLE : pour les articles, si la classe hero-articles est présente
     &.hero-articles {
         .hero-image-container {
             height: 300px;
@@ -32,14 +26,12 @@
 .hero-image-container {
     width: 100%;
     overflow: hidden;
-    // La hauteur doit prendre 100% de la hauteur de la fenêtre MOINS la hauteur du header (80px).
-    // Ceci devrait permettre au hero de prendre l'espace exact sous la navbar.
     height: calc(100vh - 80px); 
-    min-height: 550px; // Une hauteur minimale pour s'assurer que l'image reste imposante
+    min-height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; // <-- REMIS : C'est CRUCIAL pour le positionnement des éléments enfants (image, texte, flèche)
+    position: relative;
 
     &::before {
         content: "";
@@ -125,7 +117,6 @@
     }
 }
 
-/* Media Queries pour les écrans mobiles */
 @media (max-width: 768px) {
     .hero-section {
         margin-top: 80px; 
@@ -133,8 +124,7 @@
 
     .hero-image-container {
         padding-bottom: 0;
-        // Revenir à la configuration qui fonctionnait, sans ajustement arbitraire.
-        height: calc(100vh - 80px); // <-- REVENU à la valeur initiale.
+        height: calc(100vh - 80px);
         min-height: 400px;
         max-height: unset;
     }
@@ -156,7 +146,6 @@
         font-size: 2em;
     }
 
-    // Styles spécifiques pour les articles sur mobile
     .hero-section.hero-articles {
         .hero-image-container {
             height: 250px; 
