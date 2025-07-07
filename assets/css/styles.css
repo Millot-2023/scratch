@@ -348,7 +348,7 @@ code {
   }
 }
 .main-footer {
-  background-color: rgb(25.2173913043, 105.2826086957, 43.5);
+  background-color: rgb(50, 50, 50); /*----COULEUR DE LA NAVBAR----*/
   color: #ffffff;
   padding: 20px 0;
   text-align: center;
