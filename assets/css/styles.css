@@ -97,13 +97,16 @@ h1 {
 }
 
 h2 {
+  padding: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 28pt;
-  color: black;
+  font-size: 24pt;
   line-height: 1.1;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  color: white;
+  background: repeating-linear-gradient(60deg, yellow, yellow 30px, black 30px, black 70px);
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
 }
 
 h3 {
@@ -396,24 +399,19 @@ code {
 }
 
 /*BLOCS*/
-.deuxBlocs {
-  background-color: red;
-}
+/*.deuxBlocs{background-color:red;}
 
-.quatresBlocs {
-  background-color: green;
-}
-
+.quatresBlocs{background-color:green;}*/
 /* --- Media Queries pour le Responsive --- */
 @media (max-width: 769px) { /*EN DESSOUS DE*/
   .deuxBlocs {
-    background-color: orange;
+    /*background-color:orange;*/
     display: flex;
     flex-direction: column;
     gap: 25px;
   }
   .quatresBlocs {
-    background-color: yellow;
+    /*background-color:yellow;*/
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -421,14 +419,14 @@ code {
 }
 @media (min-width: 768px) { /*AU DELA DE*/
   .deuxBlocs {
-    background-color: yellow;
+    /*background-color:yellow;*/
     display: flex;
     flex-direction: row;
     gap: 25px;
     margin-bottom: 20px;
   }
   .quatresBlocs {
-    background-color: orange;
+    /*background-color:orange;*/
     display: flex;
     flex-direction: row;
     gap: 25px;
