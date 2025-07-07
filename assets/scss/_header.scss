@@ -3,7 +3,11 @@
 @use 'variables';
 
 .main-header {
-  background-color: variables.$dark-color;
+  // background-color: variables.$dark-color;
+
+  //background-color: variables.$dark-color;
+
+
   color: variables.$white;
   padding: 0;
   position: fixed;
