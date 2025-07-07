@@ -20,7 +20,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /*font: inherit;*/
   vertical-align: baseline;
 }
 
@@ -99,7 +99,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 28pt;
-  /*color: blue;*/
+  color: black;
   line-height: 1.1;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -125,6 +125,14 @@ h4, h5, h6 {
 
 p {
   color: black;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+i, em {
+  font-style: italic;
 }
 
 code {
@@ -372,6 +380,46 @@ code {
   scroll-margin-top: 80px;
 }
 
+/*BLOCS*/
+.deuxBlocs {
+  background-color: red;
+}
+
+.quatresBlocs {
+  background-color: green;
+}
+
+/* --- Media Queries pour le Responsive --- */
+@media (max-width: 769px) { /*AEN DESSOUS DE*/
+  .deuxBlocs {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .quatresBlocs {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+@media (min-width: 768px) { /*AU DELA DE*/
+  .deuxBlocs {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  .quatresBlocs {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+}
 .hero-section {
   margin-top: 80px;
 }

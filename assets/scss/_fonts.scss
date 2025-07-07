@@ -12,7 +12,7 @@ h1 {
 
     line-height: 1.2;
     margin-bottom: 0.5em;
-        margin-top: 0.7em;
+    margin-top: 0.7em;
     }
 
 .h1Black {
@@ -31,7 +31,8 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size:28pt;
-    /*color: blue;*/
+    // color: blue;   
+    color: black;
     line-height: 1.1;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -55,6 +56,19 @@ h4, h5, h6 {
 p{
     color:black;
     }
+
+
+
+b, strong {
+    font-weight: 700; // Ou 'bold'
+}
+i, em {
+    font-style: italic;
+}
+
+
+
+
 
 code{
     color:red;

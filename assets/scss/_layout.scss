@@ -4,9 +4,54 @@
      max-width: 1200px;
      margin-inline: auto;
      padding-inline: 40px;/*MARGES LATERALLE DES PAGES*/
-
      }
 
 #premier-bloc {
      scroll-margin-top: 80px; 
      }
+
+
+
+/*BLOCS*/
+
+.deuxBlocs{background-color:red;}
+
+.quatresBlocs{background-color:green;}
+
+/* --- Media Queries pour le Responsive --- */
+@media (max-width: 769px) {/*AEN DESSOUS DE*/
+
+.deuxBlocs{
+background-color:orange;
+display: flex;
+flex-direction: column;
+gap:25px;
+// margin-bottom: 20px;
+}
+.quatresBlocs{
+background-color:yellow;
+display: flex;
+flex-direction: column;
+gap:25px;
+// margin-bottom: 20px;
+}
+}
+
+@media (min-width: 768px) {/*AU DELA DE*/
+
+.deuxBlocs{
+background-color:yellow;
+display: flex;
+flex-direction: row;
+gap:25px;
+margin-bottom: 20px;
+}
+.quatresBlocs{
+background-color:orange;
+display: flex;
+flex-direction: row;
+gap:25px;
+margin-bottom: 20px;
+}
+}
+
