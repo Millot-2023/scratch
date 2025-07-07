@@ -140,6 +140,10 @@ code {
   color: red;
 }
 
+#premier-bloc {
+  margin-bottom: 1em;
+}
+
 @media (max-width: 768px) { /*EN DESSOUS DE*/
   .h1Black {
     font-size: 32pt;
