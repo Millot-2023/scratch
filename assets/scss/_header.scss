@@ -1,27 +1,41 @@
 // _header.scss
 
-@use 'variables';
+@use 'variables'; // Assure-toi que tes variables sont bien importées
 
 .main-header {
-  // background-color: variables.$dark-color;
-  //background-color: variables.$dark-color;
-  color: variables.$white;
-  padding: 0;
-  position: fixed;
-  // top: 80px; // <-- Cette ligne DOIT ÊTRE COMMENTÉE ou SUPPRIMÉE
-  top: 0; // <-- AJOUTE OU DÉCOMMENTE CETTE LIGNE si elle n'est pas déjà présente
-  width: 100%;
-  z-index: 1000;
-  height: 80px; // Hauteur du header
+    background-color: variables.$dark-color;
+    color: variables.$white; // Ceci est pour le texte général du header, pas directement pour le logo
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 80px;
 }
 
 .logo {
-  color: variables.$white;
-  font-size: 1.8em;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 0 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none; // Pour retirer le soulignement par défaut
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+
+    // --- C'EST LA PARTIE CRUCIALE : DÉFINIR LA COULEUR POUR TOUS LES ÉTATS DU LIEN ---
+    color: variables.$white; // Couleur de base pour le logo
+    
+    &:link, // Pour les liens non visités
+    &:visited { // Pour les liens visités
+        color: variables.$white; // Le logo reste blanc même après avoir été visité
+    }
+
+    &:hover { // Couleur au survol
+        color: variables.$navHover; // Par exemple, une couleur d'accent au survol
+        text-decoration: none; // Optionnel : souligner au survol
+    }
+
+    &:active { // Couleur lorsque le lien est cliqué
+        color: variables.$white; // Reste blanc ou autre couleur si tu souhaites
+    }
 }

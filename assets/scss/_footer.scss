@@ -1,11 +1,10 @@
 // scss/_footer.scss
 
 @use "sass:color"; // Importe le module de couleur pour color.adjust()
-@use "variables";  // Importe votre module de variables pour $primary-color et $white
+@use "variables";   // Importe votre module de variables pour $primary-color et $white
 
 .main-footer {
-    // Correction de darken() par color.adjust() et utilisation de variables.$primary-color
-    background-color: variables.$grisFonce;/*----COULEUR DE LA NAVBAR----*/
+    background-color: variables.$grisFonce; // COULEUR DE LA NAVBAR et FOOTER
     color: variables.$white; // Utilisation de variables.$white
     padding: 20px 0;
     text-align: center;
@@ -26,7 +25,7 @@
 .footer-content p {
     font-size: 0.9em;
     margin: 0;
-    color:white;
+    color: variables.$white; // Utilisation de variables.$white pour la consistance
 }
 
 .social-links {
@@ -42,4 +41,34 @@
 
 .social-links a:hover {
     color: variables.$primary-color; // Utilisation de variables.$primary-color
+}
+
+
+/* --- Style du bouton "Retour en haut" (Corrigé et Amélioré) --- */
+#scroll-to-top {
+    display: none; /* Masqué par défaut (JS gère l'affichage) */
+    position: fixed; /* Reste en place lors du défilement */
+    bottom: 12px; /* Distance du bas de la page */
+    right: 20px; /* Distance de la droite de la page */
+    z-index: 1000; /* Assure qu'il est au-dessus des autres éléments */
+    text-align: center; /* Centrage de l'icône à l'intérieur */
+    /*transition: background-color 0.3s ease, opacity 0.3s ease;*/ /* Transition douce */
+
+    // Styles pour la forme et la couleur du bouton
+    /*background-color: variables.$primary-color;*/ // Utilise la couleur principale de tes variables
+    /*padding: 12px 12px;*/ // Exemple de padding pour une forme plus rectangulaire/pilule
+    border-radius: 50px; // Coins légèrement arrondis (essaie 0px pour carré, ou 25px pour une pilule plus prononcée)
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/ // Une ombre plus visible
+}
+
+// Styles spécifiques pour l'icône à l'intérieur du bouton (pour la couleur et l'épaisseur)
+#scroll-to-top i {
+    color: white; // FORCE la couleur de l'icône à être blanche
+    font-size: 30px; // Taille de l'icône pour une meilleure épaisseur visuelle
+    /*text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);*/ // Ajoute un léger effet d'ombre pour un rendu plus "gras"
+}
+
+#scroll-to-top:hover {
+    /*background-color: color.adjust(variables.$primary-color, $lightness: -15%);*/ // Assombrit la couleur principale au survol
+    opacity: 1; // Assure une opacité pleine au survol
 }

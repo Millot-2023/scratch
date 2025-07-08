@@ -23,7 +23,7 @@
                     <a href="index.html" class="logo">Site vers Scratch</a> 
                     <div class="nav-right-container">
                         <ul class="nav-menu" id="main-nav-menu">
-                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="index.php">Accueil</a></li>
                             <li><a href="articles.html">Articles</a></li> 
                             <li><a href="templates.html">Templates</a></li> 
                         </ul>

@@ -1,0 +1,28 @@
+/* Styles généraux pour tous les liens */
+a {
+    color: #007bff; /* Couleur par défaut de tes liens (exemple : un bleu plus doux) */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    transition: color 0.3s ease; /* Ajoute une transition douce pour les changements de couleur */
+}
+
+/* Couleur des liens non visités */
+a:link {
+    color: #007bff; /* La même couleur que a {} */
+}
+
+/* Couleur des liens visités */
+a:visited {
+    color: #6610f2; /* Une couleur légèrement différente pour les liens visités si tu le souhaites (ex: violet) */
+    /* Tu peux aussi mettre la même couleur que a:link si tu ne veux pas de distinction */
+}
+
+/* Couleur au survol des liens */
+a:hover {
+    color: #0056b3; /* Couleur au survol (exemple : un bleu plus foncé) */
+    text-decoration: underline; /* Réapparaître le soulignement au survol pour l'accessibilité */
+}
+
+/* Couleur au clic des liens (état actif) */
+a:active {
+    color: #004085; /* Couleur quand le lien est cliqué */
+}

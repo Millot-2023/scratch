@@ -8,6 +8,7 @@
 @use 'page-content';
 @use 'layout';
 @use 'hero';
+@use 'base';
 
 #premier-bloc {
     scroll-margin-top: 80px; // La hauteur de ton header fixe
