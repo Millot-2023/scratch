@@ -1,0 +1,19 @@
+// scss/styles.scss
+@use 'variables';
+@use 'reset';
+@use 'fonts';
+@use 'header';
+@use 'navbar';
+@use 'footer';
+@use 'page-content';
+@use 'layout';
+@use 'hero';
+@use 'base';
+@use 'button';
+
+@use 'animations';
+
+#premier-bloc {
+    scroll-margin-top: 80px; // La hauteur de ton header fixe
+    /* Garde tous les autres styles de #premier-bloc ici */
+}

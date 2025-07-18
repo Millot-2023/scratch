@@ -1,0 +1,15 @@
+/* Fichier: C:\xampp\htdocs\scratch\assets\scss\_animations.scss */
+
+// Styles initiaux pour les éléments qui doivent apparaître au scroll
+.animated-content-block { 
+    opacity: 0; 
+    transition: opacity 1s ease-out; /* Seulement le fondu, pas de déplacement */
+    will-change: opacity; /* Optimisation pour l'opacité */
+}
+
+// Styles quand l'élément devient visible
+.animated-content-block.is-visible {
+    opacity: 1; 
+}
+
+

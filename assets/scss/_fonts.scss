@@ -1,0 +1,133 @@
+body {
+//font-family: 'Roboto', sans-serif;
+
+
+/*background-color: #fffef5;*/
+/*background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");*/
+
+background-color: #fffbe3;
+background-image: url("https://www.transparenttextures.com/patterns/paper-3.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+
+padding-left: 50px;
+padding-right: 50px;
+
+
+
+font-weight: 400;
+line-height: 1.6;
+}
+
+h1 {
+  //font-family: 'Roboto', sans-serif;
+  font-family: serif;
+  font-weight: 700;
+  font-size:48pt;
+  color: White;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  margin-top: 0.7em;
+  }
+
+.h1Black {
+  //font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size:48pt;
+  color: black;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  margin-top: 0.7em;
+  }
+
+h2 {
+  //font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 28pt;
+  line-height: 1.1;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  position: relative;
+  padding-bottom: 10px;
+    &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    }
+}
+
+h3 {
+  //font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size:24pt;
+  color: black;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  position: relative;
+    &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    }
+}
+
+
+.personaName{
+  font-size:24pt;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+h4 {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-weight: 700;
+  font-size:20pt;
+  color: #222;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+  position: relative;
+    &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    }
+}
+
+h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size:20pt;
+  color: #222;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  }
+
+p{
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  }
+
+strong{
+  font-weight: 600;
+  }
+
+b{
+  font-weight: bold;
+  }
+
+code{
+  color:red;
+  }

@@ -1,0 +1,25 @@
+/* Fichier: assets/scss/_base.scss ou _styles.scss */
+
+/* Styles généraux pour tous les liens */
+a {
+    /*color: #007bff;*/ /* Couleur par défaut de tes liens (exemple : un bleu plus doux) */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    /*transition: color 0.3s ease;*/ /* Ajoute une transition douce pour les changements de couleur */
+
+    &:link { /* Imbrication pour les liens non visités */
+        color: #007bff;
+    }
+
+    &:visited { /* Imbrication pour les liens visités */
+        color: #6610f2; /* Une couleur légèrement différente pour les liens visités si tu le souhaites */
+    }
+
+    &:hover { /* Imbrication pour le survol */
+        color: red; /* OKOKOK */
+        text-decoration: none; /* Pas de soulignement au survol */
+    }
+
+    &:active { /* Imbrication pour le clic (état actif) */
+        color: #e86107; /* Couleur quand le lien est cliqué */
+    }
+}

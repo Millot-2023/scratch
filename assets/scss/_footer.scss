@@ -1,0 +1,89 @@
+/*@use "sass:color";
+@use "variables";
+
+.main-footer {
+    background-color: rgb(50, 50, 50);
+    color: variables.$white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    }
+
+.footer-content p {
+    font-size: 0.9em;
+    margin: 0;
+    color:white;
+    }
+
+.social-links {
+    margin-top: 10px;
+    }
+
+.social-links a {
+    color: variables.$white; // Utilisation de variables.$white
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+    }
+
+.social-links a:hover {
+    color: variables.$primary-color;
+    }*/
+
+/* Fichier: assets/scss/_footer.scss */
+
+@use "sass:color";
+@use "variables";
+
+.main-footer {
+    background-color: rgb(50, 50, 50);
+    color: variables.$white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 50px;
+
+    .footer-content { /* Imbrication du .footer-content à l'intérieur de .main-footer */
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        p { /* Imbrication des paragraphes à l'intérieur de .footer-content */
+            font-size: 0.9em;
+            margin: 0;
+            color: white;
+        }
+
+        .social-links { /* Imbrication des .social-links à l'intérieur de .footer-content */
+            margin-top: 10px;
+
+            a { /* Imbrication des liens a à l'intérieur de .social-links */
+                color: variables.$white;
+                font-size: 1.5em;
+                margin: 0 10px;
+                transition: color 0.3s ease-in-out;
+
+                &:hover { /* Imbrication du :hover pour les liens sociaux */
+                    color: variables.$primary-color;
+                }
+            }
+        }
+    }
+}

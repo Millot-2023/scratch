@@ -1,0 +1,30 @@
+// _header.scss
+
+@use 'variables';
+
+.main-header {
+  // background-color: variables.$dark-color;
+
+  //background-color: variables.$dark-color;
+
+
+  color: variables.$white;
+  padding: 0;
+  position: fixed;
+  // top: 80px; // <-- Cette ligne DOIT ÊTRE COMMENTÉE ou SUPPRIMÉE
+  top: 0; // <-- AJOUTE OU DÉCOMMENTE CETTE LIGNE si elle n'est pas déjà présente
+  width: 100%;
+  z-index: 1000;
+  height: 80px; // Hauteur du header
+}
+
+.logo {
+  color: variables.$white;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}

@@ -1,0 +1,17 @@
+/* Fichier: assets/css/test.css */
+
+.vignetteGauche {
+
+    float: left;
+    width: 60px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+
+.articleTest p {
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
