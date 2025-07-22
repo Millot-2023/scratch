@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet Scartch</title> <meta name="description" content="Découvrez le catalogue de mes réalisations graphiques et mes projets de développement web. Portfolio de Christophe MILLOT.">
+    <title>Projet Scratch</title> <meta name="description" content="Découvrez le catalogue de mes réalisations graphiques et mes projets de développement web. Portfolio de Christophe MILLOT.">
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -128,170 +128,146 @@
     </div><!--/INTRODUCTION-->
 
 
-            <h3 class="animated-content-block">2 blocs</h3>
-    <div class="deuxBlocs animated-content-block">
-
+<h3 class="animated-content-block">2 blocs</h3>
+    <div class="deuxBlocs">
         <div class="deuxBlocsa">
-            <picture>
-            <!-- Grand écran : desktop -->
-            <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-            <!-- Tablette : entre 768px et 1199px -->
-            <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-            <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-            <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            <!--remplacer "stamp1" par "stamp" pour supprimer la rotation-->
+
+
+
+
+            <picture class="stamp">
+                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
             </picture>
+
+
+
 
             <h4>Bloc01</h4>
             <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
             <p class="text-center-with-margin">
-            <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
             </p>
         </div>
-
         <div class="deuxBlocsb">
-            <picture>
-            <!-- Grand écran : desktop -->
-            <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-            <!-- Tablette : entre 768px et 1199px -->
-            <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-            <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-            <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
             </picture>
-
             <h4>Bloc02</h4>
             <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
             <p class="text-center-with-margin">
-            <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
             </p>
         </div>
     </div>
+    </div>
 
-    <h3>4 blocs</h3>
 
-        <div class="quatresBlocs">
-            <div class="deuxBlocs">
-                <div class="deuxBlocsa">
-                <picture>
-                <!-- Grand écran : desktop -->
+<h3>4 blocs</h3>
+
+<div class="quatresBlocs">
+    <div class="deuxBlocs">
+        <div class="deuxBlocsa">
+            <!--remplacer "stamp1" par "stamp" pour supprimer la rotation-->
+            <picture class="stamp">
                 <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
                 <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
                 <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc01</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
+            </picture>
+            <h4>Bloc01</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
                 <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
-
-                </div>
-                <div class="deuxBlocsb">
-                <picture>
-                <!-- Grand écran : desktop -->
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc02</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
-                </div>
-            </div>
-            <div class="deuxBlocs">
-                <div class="deuxBlocsa">
-
-                <picture>
-                <!-- Grand écran : desktop -->
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc03</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
-
-                </div>
-                <div class="deuxBlocsb">
-                <picture>
-                <!-- Grand écran : desktop -->
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc04</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
-                </div>
-            </div>
+            </p>
         </div>
+        <div class="deuxBlocsb">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc02</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
+                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+            </p>
+        </div>
+    </div>
+    <div class="deuxBlocs">
+        <div class="deuxBlocsa">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc03</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
+                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+            </p>
+        </div>
+        <div class="deuxBlocsb">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc03</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
+                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+            </p>
+        </div>
+    </div>
+</div>
+
         <!--Persona-->
         <section class="persona-card">
-        <div class="persona-header">
-        <img src="assets/images/photo-120x160.png" alt="Avatar de Persona" class="">
-        <p class="personaName">Alice Dupont</p>
-        <p class="persona-role">Développeuse Web Junior</p>
-        </div>
-
-        <div class="persona-details">
-        <div class="detail-group">
-        <h4>Démographie</h4>
-        <ul>
-        <li>• <b>Âge</b> : 28 ans</li>
-        <li>• Localisation : Lyon, France</li>
-        <li>• Éducation : Master en Informatique</li>
-        </ul>
-        </div>
-
-        <div class="detail-group">
-        <h4>Objectifs</h4>
-        <ul>
-        <li>Apprendre de nouvelles technologies (React, Vue.js).</li>
-        <li>Contribuer à des projets open source.</li>
-        <li>Évoluer vers un poste de Lead Développeur.</li>
-        </ul>
-        </div>
-
-        <div class="detail-group">
-        <h4>Frustrations</h4>
-        <ul>
-        <li>Documentation technique incomplete.</li>
-        <li>Délais trop courts sur les projets.</li>
-        <li>Manque de feedback constructif.</li>
-        </ul>
-        </div>
-
-        <div class="detail-group">
-        <h4>Bio</h4>
-        <p>Alice est passionnée par le développement front-end. Elle aime résoudre des problèmes complexes et est toujours à la recherche de nouvelles opportunités d'apprentissage. En dehors du travail, elle fait de la randonnée et joue du piano.</p>
-        </div>
-        </div>
+            <div class="persona-header">
+                <img src="assets/images/photo-120x160.png" alt="Avatar de Persona" class="">
+                <div class="name">
+                    <p class="personaName">Alice Dupont</p>
+                    <p class="persona-role">Développeuse Web Junior</p>
+                </div>
+            </div>
+            <div class="persona-details">
+                <div class="detail-group">
+                    <h4>Démographie</h4>
+                        <ul>
+                            <li>• <b>Âge</b> : 28 ans</li>
+                            <li>• Localisation : Lyon, France</li>
+                            <li>• Éducation : Master en Informatique</li>
+                        </ul>
+                </div>
+                <div class="detail-group">
+                    <h4>Objectifs</h4>
+                        <ul>
+                            <li>Apprendre de nouvelles technologies (React, Vue.js).</li>
+                            <li>Contribuer à des projets open source.</li>
+                            <li>Évoluer vers un poste de Lead Développeur.</li>
+                        </ul>
+                </div>
+                <div class="detail-group">
+                    <h4>Frustrations</h4>
+                    <ul>
+                        <li>Documentation technique incomplete.</li>
+                        <li>Délais trop courts sur les projets.</li>
+                        <li>Manque de feedback constructif.</li>
+                    </ul>
+                </div>
+                <div class="detail-group">
+                        <h4>Bio</h4>
+                        <p>Alice est passionnée par le développement front-end. Elle aime résoudre des problèmes complexes et est toujours à la recherche de nouvelles opportunités d'apprentissage. En dehors du travail, elle fait de la randonnée et joue du piano.</p>
+                </div>
+            </div>
         </section>
         <!--/Persona-->
 
-</main>
+    </main>
 
 
 <footer class="main-footer">

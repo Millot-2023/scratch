@@ -1,0 +1,23 @@
+  .cards-wrapper {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    }
+
+
+    
+  .cards-wrapperX4 {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    gap:20px;
+    margin-bottom: 20px;
+    }

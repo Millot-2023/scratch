@@ -3,27 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet Scartch</title> <meta name="description" content="Découvrez le catalogue de mes réalisations graphiques et mes projets de développement web. Portfolio de Christophe MILLOT.">
-
+    <title>Projet Scratch</title>
+    <meta name="description" content="Découvrez le catalogue de mes réalisations graphiques et mes projets de développement web. Portfolio de Christophe MILLOT.">
     <link rel="stylesheet" href="assets/css/styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://picsum.photos">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-
     <style>
+        /* Votre CSS existant pour .material-symbols-outlined */
         .material-symbols-outlined {
-            font-family: 'Material Symbols Outlined' !important; /* La ligne cruciale pour définir la police */
-            /*font-weight: normal !important; 
-            font-style: normal !important; */
-            font-size: 48px !important; /* Taille augmentée pour une meilleure visibilité */
-            /*line-height: 1 !important; */
+            font-family: 'Material Symbols Outlined' !important;
+            font-size: 48px !important;
             letter-spacing: normal !important;
             text-transform: none !important;
             white-space: nowrap !important;
@@ -33,263 +26,575 @@
             text-rendering: optimizeLegibility !important;
             -moz-osx-font-smoothing: grayscale !important;
             
-            /* Paramètres variables des Material Symbols pour contrôler leur apparence */
             font-variation-settings:
-                'FILL' 0,  /* 0 pour le contour, 1 pour le rempli */
-                'wght' 400, /* Poids/épaisseur de l'icône (100 à 700) */
-                'GRAD' 0   /* Grade (intensité visuelle) (-25 à 200) */
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0
                 !important; 
             
-            display: inline-block !important; /* Assure un affichage correct en ligne */
-
-            color: yellow !important; /* Couleur vive pour un test facile */
-
-        position: relative; /* Très important pour pouvoir utiliser 'top' */
-        top: 5px; /* Ajuste cette valeur en pixels (ex: 5px, 10px, 15px) */
-        /* Ou tu peux utiliser un padding-top si ça correspond mieux à ta mise en page */
-        /* padding-top: 5px; */
-
-
-        /* PROPRIÉTÉS POUR LE CONTOUR NOIR */
-        -webkit-text-stroke: 1px black; /* Pour les navigateurs basés sur WebKit (Chrome, Safari, Edge) */
-        text-stroke: 1px black;         /* Standard CSS */
-        
-        /* Optionnel: Si vous voulez que l'intérieur soit transparent pour n'avoir que le contour */
-        -webkit-text-fill-color: white; /* Pour les navigateurs WebKit */
-        text-fill-color: transparent;         /* Standard CSS */
-
-
-
-            
+            display: inline-block !important;
+            color: yellow !important;
+            position: relative;
+            top: 5px;
+            -webkit-text-stroke: 1px black;
+            text-stroke: 1px black;
+            -webkit-text-fill-color: white;
+            text-fill-color: transparent;
         }
-    </style>
 
+        /* Votre CSS existant pour .stamp */
+        .stamp {
+            --r: 15px;
+            padding: var(--r);
+            background: #ffffff;
+            mask:
+                radial-gradient(50% 50%, #0000 66%, #000 67%) round
+                    var(--r) var(--r)/calc(2*var(--r)) calc(2*var(--r)),
+                conic-gradient(#000 0 0) content-box;
+            transform: rotate(0deg);
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .stamp:hover {
+            cursor: pointer;
+            transform: rotate(5deg);
+        }
+
+
+    </style>
 </head>
 
 <body>
 
     <header class="main-header">
-        <!--NAV-->
         <nav class="main-nav">
-                    <a href="index.php" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Site vers Scratch</a> 
-                    <div class="nav-right-container">
-                        <ul class="nav-menu" id="main-nav-menu">
-                            <li><a href="index.php">Accueil</a></li>
-                            <li><a href="articles.php">Articles</a></li> 
-                            <li><a href="templates.php">Templates</a></li> 
-                        </ul>
-                        <button class="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="main-nav-menu">
-                            <span class="hamburger"></span>
-                            <span class="hamburger"></span>
-                            <span class="hamburger"></span>
-                        </button>
-                    </div>
+            <a href="index.php" class="logo">
+                <i class="fa-solid fa-hammer">
+                </i>&nbsp;Site vers Scratch</a> 
+            <div class="nav-right-container">
+                <ul class="nav-menu" id="main-nav-menu">
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="articles.php">Articles</a></li> 
+                    <li><a href="templates.php">Templates</a></li> 
+                </ul>
+                <button class="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="main-nav-menu">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
         </nav>
-        <!--/NAV-->
     </header>
 
-    <!--HERO-->
-        <section class="hero-section" id="hero-section">
-                <div class="hero-image-container">
-                    <div class="hero-text">
-                        <h1>Au service de vos idées</h1>
-                    </div>
-                    <a href="#premier-bloc" class="scroll-down-arrow" aria-label="Faire défiler vers le contenu">
-                        <i class="fas fa-chevron-down"></i>
-                    </a>
-                    <picture>
-                        <source srcset="assets/images/hero-2560x1440-index.png" media="(min-width: 769px)">
-                        <img src="assets/images/hero-2560x1440-index.png" alt="">
-                    </picture>
-<!--
-<picture>
-    <source srcset="assets/images/image-large.webp" media="(min-width: 1200px)" type="image/webp">
-    <source srcset="assets/images/image-large.jpg" media="(min-width: 1200px)" type="image/jpeg">
+    <section class="hero-section" id="hero-section">
+        <div class="hero-image-container">
+            <div class="hero-text">
+                <h1>Au service de vos idées</h1>
+            </div>
+            <a href="#premier-bloc" class="scroll-down-arrow" aria-label="Faire défiler vers le contenu">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <picture>
+                <source srcset="assets/images/hero-2560x1440-index.png" media="(min-width: 769px)">
+                <img src="assets/images/hero-2560x1440-index.png" alt="">
+            </picture>
+    </section>
 
-    <source srcset="assets/images/image-medium.webp" media="(min-width: 768px)" type="image/webp">
-    <source srcset="assets/images/image-medium.jpg" media="(min-width: 768px)" type="image/jpeg">
+<main class="main-content-wrapper" id="procedure-git">
 
-    <img src="assets/images/image-small.jpg" alt="Description de l'image" loading="lazy">
-</picture>-->
-
-
-</section>
-
-<main class="main-content-wrapper" id="procedure-git"><!--INTRODUCTION-->
 
     <div class="introduction animated-content-block" id="premier-bloc">
         <h1 class="h1Black">Titre Principal</h1>
         <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction</h2>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.
 
-    <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-    <p class="text-center-with-margin">
-    <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
-    </p>
-    </div><!--/INTRODUCTION-->
-
-
-            <h3 class="animated-content-block">2 blocs</h3>
-    <div class="deuxBlocs animated-content-block">
-
-        <div class="deuxBlocsa">
-            <picture>
-            <!-- Grand écran : desktop -->
-            <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-            <!-- Tablette : entre 768px et 1199px -->
-            <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-            <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-            <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-            </picture>
-
-            <h4>Bloc01</h4>
-            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-            <p class="text-center-with-margin">
-            <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
             </p>
-        </div>
-
-        <div class="deuxBlocsb">
-            <picture>
-            <!-- Grand écran : desktop -->
-            <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-            <!-- Tablette : entre 768px et 1199px -->
-            <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-            <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-            <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-            </picture>
-
-            <h4>Bloc02</h4>
-            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
             <p class="text-center-with-margin">
-            <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+                <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
             </p>
-        </div>
     </div>
 
-    <h3>4 blocs</h3>
-
-        <div class="quatresBlocs">
-            <div class="deuxBlocs">
-                <div class="deuxBlocsa">
-                <picture>
-                <!-- Grand écran : desktop -->
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc01</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
-
-                </div>
-                <div class="deuxBlocsb">
-                <picture>
-                <!-- Grand écran : desktop -->
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc02</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
-                </div>
+<!--
+<div class="cards-wrapperX4">
+    <div class="card-container">
+        <div class="card flip-card-js">
+            <div class="card-face card-front card01">
+                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
             </div>
-            <div class="deuxBlocs">
-                <div class="deuxBlocsa">
-
-                <picture>
-                <!-- Grand écran : desktop -->
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc03</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
-
+            <div class="card-face card-back">
+                <div class="close-btn close-btn-js"></div>
+                <div class="back-content">
+                    <h2 class="back-title">Explorez le Monde</h2>
+                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
                 </div>
-                <div class="deuxBlocsb">
-                <picture>
-                <!-- Grand écran : desktop -->
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <!-- Tablette : entre 768px et 1199px -->
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <!-- Mobile : en dessous de 768px (fallback dans <img>) -->
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-                </picture>
-
-                <h4>Bloc04</h4>
-                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-
-                <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-                </p>
+                <div class="button-container">
+                    <button class="back-button" onclick="alert('Aventure commencée!')">
+                    Voir plus...
+                    </button>
                 </div>
             </div>
         </div>
-        <!--Persona-->
-        <section class="persona-card">
-        <div class="persona-header">
-        <img src="assets/images/photo-120x160.png" alt="Avatar de Persona" class="">
-        <p class="personaName">Alice Dupont</p>
-        <p class="persona-role">Développeuse Web Junior</p>
+    </div>
+    <div class="card-container">
+        <div class="card flip-card-js">
+            <div class="card-face card-front  card02">
+                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+            </div>
+            <div class="card-face card-back">
+                <div class="close-btn close-btn-js"></div>
+                <div class="back-content">
+                    <h2 class="back-title">Explorez le Monde</h2>
+                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                </div>
+                <div class="button-container">
+                    <button class="back-button" onclick="alert('Aventure commencée!')">
+                    Voir plus...
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card flip-card-js">
+            <div class="card-face card-front card03">
+                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+            </div>
+            <div class="card-face card-back">
+                <div class="close-btn close-btn-js"></div>
+                <div class="back-content">
+                    <h2 class="back-title">Explorez le Monde</h2>
+                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                </div>
+                <div class="button-container">
+                    <button class="back-button" onclick="alert('Aventure commencée!')">
+                    Voir plus...
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card flip-card-js">
+
+            <div class="card-face card-front  card04">
+                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+            </div>
+
+            <div class="card-face card-back">
+                <div class="close-btn close-btn-js"></div>
+                <div class="back-content">
+                    <h2 class="back-title">Explorez le Monde</h2>
+                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                </div>
+                <div class="button-container">
+                    <button class="back-button" onclick="alert('Aventure commencée!')">
+                    Voir plus...
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>-->
+
+
+
+<!--<div class="cards-wrapperX4">
+    
+    <div class="cards-wrapper2a">
+            <div class="card-container">
+
+                <div class="card flip-card-js">
+
+                    <div class="card-face card-front">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-container">
+                
+                <div class="card flip-card-js">
+
+                    <div class="card-face card-front">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div class="persona-details">
-        <div class="detail-group">
-        <h4>Démographie</h4>
-        <ul>
-        <li>• <b>Âge</b> : 28 ans</li>
-        <li>• Localisation : Lyon, France</li>
-        <li>• Éducation : Master en Informatique</li>
-        </ul>
+    <div class="cards-wrapper2b">
+            <div class="card-container">
+
+                <div class="card flip-card-js">
+
+                    <div class="card-face card-front">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-container">
+                
+                <div class="card flip-card-js">
+
+                    <div class="card-face card-front">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+<div class="cards-wrapperX4">
+    
+    <div class="cards-wrapper2a">
+
+
+
+
+        <div class="card-container">
+            <div class="card flip-card-js">
+                <div class="card-face card-front card01">
+                <h1 class="front-title title-btn-js"><!--Voir<br>Le code-->CSS ...</h1>
+                </div>
+                <div class="card-face card-back">
+                <div class="close-btn close-btn-js"></div>
+                <div class="back-content">
+                    <h2 class="back-title">CSS 01- back</h2>
+                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                </div>
+                <div class="button-container">
+                    <button class="back-button" onclick="alert('Aventure commencée!')">
+                    Copiez le code
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+        <div class="card-container">
+            <div class="card flip-card-js">
+                <div class="card-face card-front card02">
+                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                </div>
+                <div class="card-face card-back">
+                <div class="close-btn close-btn-js"></div>
+                <div class="back-content">
+                    <h2 class="back-title">Explorez le Monde</h2>
+                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                </div>
+                <div class="button-container">
+                    <button class="back-button" onclick="alert('Aventure commencée!')">
+                    Voir plus...
+                    </button>
+                </div>
+                </div>
+            </div>
         </div>
 
-        <div class="detail-group">
-        <h4>Objectifs</h4>
-        <ul>
-        <li>Apprendre de nouvelles technologies (React, Vue.js).</li>
-        <li>Contribuer à des projets open source.</li>
-        <li>Évoluer vers un poste de Lead Développeur.</li>
-        </ul>
+    </div>
+
+    <div class="cards-wrapper2b">
+            <div class="card-container">
+
+                <div class="card flip-card-js">
+
+                    <div class="card-face card-front card03">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-container">
+                
+                <div class="card flip-card-js">
+
+                    <div class="card-face card-front card04">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<div class="cards-wrapperX4">
+    
+    <div class="cards-wrapper2a">
+            <div class="card-container">
+
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card01">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card02">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="detail-group">
-        <h4>Frustrations</h4>
-        <ul>
-        <li>Documentation technique incomplete.</li>
-        <li>Délais trop courts sur les projets.</li>
-        <li>Manque de feedback constructif.</li>
-        </ul>
+        <div class="cards-wrapper2b">
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card03">
+                        <h1 class="front-title title-btn-js">Découvrez2<br>L'Aventure</h1>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front  card04">
+                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">Explorez le Monde</h2>
+                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button" onclick="alert('Aventure commencée!')">
+                            Voir plus...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="detail-group">
-        <h4>Bio</h4>
-        <p>Alice est passionnée par le développement front-end. Elle aime résoudre des problèmes complexes et est toujours à la recherche de nouvelles opportunités d'apprentissage. En dehors du travail, elle fait de la randonnée et joue du piano.</p>
+    </div>
+</div>-->
+
+
+<!--OK--> 
+    <!--<div class="cards-wrapper">
+       
+        <div class="card-container">
+
+            <div class="card flip-card-js">
+
+                <div class="card-face card-front">
+                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                </div>
+
+                <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">Explorez le Monde</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                </div>
+
+            </div>
         </div>
+        <div class="card-container">
+            
+            <div class="card flip-card-js">
+
+                <div class="card-face card-front">
+                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                </div>
+
+                <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">Explorez le Monde</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        </section>
-        <!--/Persona-->
+        <div class="card-container">
+            
+            <div class="card flip-card-js">
+
+                <div class="card-face card-front">
+                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                </div>
+
+                <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">Explorez le Monde</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="card-container">
+            
+            <div class="card flip-card-js">
+
+                <div class="card-face card-front">
+                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                </div>
+
+                <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">Explorez le Monde</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      
+    </div>
+-->
 
 </main>
 
@@ -301,10 +606,49 @@
             <a href="https://www.linkedin.com/in/christophemillot/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>
+
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/scroll.js"></script> 
+
+    <script>
+    // 1. Sélectionne TOUTES les cartes avec la classe 'flip-card-js'
+    //    document.querySelectorAll() retourne une NodeList de tous les éléments correspondants.
+    const cards = document.querySelectorAll('.flip-card-js');
+
+    // 2. Parcourt chaque carte trouvée dans la NodeList
+    //    Pour chaque 'card' dans la collection 'cards', nous allons configurer ses écouteurs.
+    cards.forEach(card => {
+        // 3. À l'intérieur de la carte actuellement traitée, trouve ses éléments de contrôle spécifiques
+        //    'card.querySelector()' est utilisé ici pour chercher UNIQUEMENT à l'intérieur de la carte actuelle.
+        const titleBtn = card.querySelector('.title-btn-js');
+        const closeBtn = card.querySelector('.close-btn-js');
+        
+        // 4. Déclare une variable d'état propre à chaque carte pour gérer son état de retournement.
+        //    Chaque carte aura son propre 'isFlipped'.
+        let isFlipped = false; 
+
+        // 5. Attache un écouteur d'événement 'click' au titre de la face avant de cette carte.
+        if (titleBtn) { // Vérifie que l'élément 'titleBtn' existe pour éviter des erreurs.
+            titleBtn.addEventListener('click', function(e) {
+                e.stopPropagation(); // Empêche l'événement de se propager à des éléments parents.
+                if (!isFlipped) { // Si la carte n'est pas déjà retournée...
+                    card.classList.add('flipped'); // ...ajoute la classe 'flipped' pour l'animation.
+                    isFlipped = true; // Met à jour l'état de cette carte.
+                }
+            });
+        }
+
+        // 6. Attache un écouteur d'événement 'click' au bouton de fermeture de la face arrière de cette carte.
+        if (closeBtn) { // Vérifie que l'élément 'closeBtn' existe.
+            closeBtn.addEventListener('click', function(e) {
+                e.stopPropagation(); // Empêche l'événement de se propager.
+                card.classList.remove('flipped'); // Retire la classe 'flipped' pour l'animation inverse.
+                isFlipped = false; // Met à jour l'état de cette carte.
+            });
+        }
+    });
+    </script>    
 </footer>
-
-<script src="assets/js/script.js"></script>
-<script src="assets/js/scroll.js"></script> 
-
 </body>
 </html>

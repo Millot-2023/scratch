@@ -11,20 +11,30 @@
     background-color: variables.$grisFonce; /*----COULEUR DE LA NAVBAR----*/
 }
 
-.main-nav .logo { /* Ciblage plus spécifique pour garantir la priorité */
+.main-nav .logo {
     display: flex;
     align-items: center;
     padding: 0 20px;
-font-family: 'Roboto', sans-serif;
-    color: variables.$white; /* Le logo est BLANC par défaut */
-    text-decoration: none; /* Supprime le soulignement par défaut */
+    font-family: 'Roboto', sans-serif;
+    color: variables.$white;
+    text-decoration: none;
     font-weight: bold;
     font-size: 1.8em;
     transition: color 0.3s ease-in-out;
-
-    &:hover { /* Au survol, il devient la couleur primaire */
-        color: variables.$primary-color; /* Utilise ta variable pour le bleu */
+    transform:rotate(0deg);
+    &:hover {
+        color: variables.$primary-color;
     }
+}
+
+.main-nav .logo .fa-solid{
+    transform:rotate(0deg);
+    transition:transform 0.1s ease-in-out;
+}
+
+.main-nav .logo .fa-solid:hover{
+    cursor:pointer;
+    transform: rotate(15deg);
 }
 
 .nav-right-container {
@@ -33,7 +43,7 @@ font-family: 'Roboto', sans-serif;
     height: 100%;
 }
 
-.nav-menu {
+.nav-menu { /* Ce style par défaut est pour le desktop */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -46,16 +56,14 @@ font-family: 'Roboto', sans-serif;
         display: flex;
         align-items: stretch;
         background-color: transparent;
-        transition: background-color 0.3s ease; /*border-radius 0.3s ease;*/
+        transition: background-color 0.3s ease;
 
         &:hover {
             background-color: variables.$grisClair;
-            /*border-radius: 5px;*/
         }
 
         a {
-
-font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -125,17 +133,18 @@ font-family: 'Roboto', sans-serif;
         padding: 0;
     }
 
-    .nav-menu {
+    /* 🔥 CORRECTION MAJEURE ICI : Ajoutez ".main-nav " pour spécifier la cible */
+    .main-nav .nav-menu {
         flex-direction: column;
         position: absolute;
-        top: 80px; /* <<<<<<<<<<<<<<<< C'EST CETTE LIGNE QUI EST MAINTENANT ACTIVÉE ! */
+        top: 80px;
         left: 0;
         width: 100% !important;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         text-align: center;
         z-index: 999;
         gap: 0;
-        display: none;
+        display: none; /* Seul le menu de la navbar est masqué par défaut */
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-out;
@@ -186,7 +195,8 @@ font-family: 'Roboto', sans-serif;
     .nav-toggle {
         display: none;
     }
-    .nav-menu {
+    /* 🔥 CORRECTION MAJEURE ICI : Ajoutez ".main-nav " pour spécifier la cible */
+    .main-nav .nav-menu {
         display: flex;
     }
 }
