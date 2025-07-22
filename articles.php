@@ -101,417 +101,132 @@
     </section>
 
 <main class="main-content-wrapper" id="procedure-git">
-
-
     <div class="introduction animated-content-block" id="premier-bloc">
-        <h1 class="h1Black">Titre Principal</h1>
-        <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction</h2>
-            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.
+            <h1 class="h1Black">Titre Principal</h1>
+            <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction</h2>
+                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.
 
-            </p>
-            <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
-            </p>
+                </p>
+                <p class="text-center-with-margin">
+                    <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
+                </p>
     </div>
 
-<!--
-<div class="cards-wrapperX4">
-    <div class="card-container">
-        <div class="card flip-card-js">
-            <div class="card-face card-front card01">
-                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-            </div>
-            <div class="card-face card-back">
-                <div class="close-btn close-btn-js"></div>
-                <div class="back-content">
-                    <h2 class="back-title">Explorez le Monde</h2>
-                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                </div>
-                <div class="button-container">
-                    <button class="back-button" onclick="alert('Aventure commencée!')">
-                    Voir plus...
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div class="card flip-card-js">
-            <div class="card-face card-front  card02">
-                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-            </div>
-            <div class="card-face card-back">
-                <div class="close-btn close-btn-js"></div>
-                <div class="back-content">
-                    <h2 class="back-title">Explorez le Monde</h2>
-                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                </div>
-                <div class="button-container">
-                    <button class="back-button" onclick="alert('Aventure commencée!')">
-                    Voir plus...
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div class="card flip-card-js">
-            <div class="card-face card-front card03">
-                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-            </div>
-            <div class="card-face card-back">
-                <div class="close-btn close-btn-js"></div>
-                <div class="back-content">
-                    <h2 class="back-title">Explorez le Monde</h2>
-                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                </div>
-                <div class="button-container">
-                    <button class="back-button" onclick="alert('Aventure commencée!')">
-                    Voir plus...
-                    </button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="card-container">
-        <div class="card flip-card-js">
-
-            <div class="card-face card-front  card04">
-                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-            </div>
-
-            <div class="card-face card-back">
-                <div class="close-btn close-btn-js"></div>
-                <div class="back-content">
-                    <h2 class="back-title">Explorez le Monde</h2>
-                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                </div>
-                <div class="button-container">
-                    <button class="back-button" onclick="alert('Aventure commencée!')">
-                    Voir plus...
-                    </button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>-->
 
 
-
-<!--<div class="cards-wrapperX4">
-    
-    <div class="cards-wrapper2a">
+    <div class="cards-wrapperX4">
+        <div class="cards-wrapper2a">
             <div class="card-container">
-
                 <div class="card flip-card-js">
-
-                    <div class="card-face card-front">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                    </div>
-
-                    <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="card-container">
-                
-                <div class="card flip-card-js">
-
-                    <div class="card-face card-front">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                    </div>
-
-                    <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    <div class="cards-wrapper2b">
-            <div class="card-container">
-
-                <div class="card flip-card-js">
-
-                    <div class="card-face card-front">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                    </div>
-
-                    <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="card-container">
-                
-                <div class="card flip-card-js">
-
-                    <div class="card-face card-front">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                    </div>
-
-                    <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>-->
-<div class="cards-wrapperX4">
-    
-    <div class="cards-wrapper2a">
-
-
-
-
-        <div class="card-container">
-            <div class="card flip-card-js">
-                <div class="card-face card-front card01">
-                <h1 class="front-title title-btn-js"><!--Voir<br>Le code-->CSS ...</h1>
-                </div>
-                <div class="card-face card-back">
-                <div class="close-btn close-btn-js"></div>
-                <div class="back-content">
-                    <h2 class="back-title">CSS 01- back</h2>
-                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                </div>
-                <div class="button-container">
-                    <button class="back-button" onclick="alert('Aventure commencée!')">
-                    Copiez le code
-                    </button>
-                </div>
-                </div>
-            </div>
-        </div>
-        
-
-
-
-
-
-
-        <div class="card-container">
-            <div class="card flip-card-js">
-                <div class="card-face card-front card02">
-                <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                </div>
-                <div class="card-face card-back">
-                <div class="close-btn close-btn-js"></div>
-                <div class="back-content">
-                    <h2 class="back-title">Explorez le Monde</h2>
-                    <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                </div>
-                <div class="button-container">
-                    <button class="back-button" onclick="alert('Aventure commencée!')">
-                    Voir plus...
-                    </button>
-                </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="cards-wrapper2b">
-            <div class="card-container">
-
-                <div class="card flip-card-js">
-
-                    <div class="card-face card-front card03">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                    </div>
-
-                    <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="card-container">
-                
-                <div class="card flip-card-js">
-
-                    <div class="card-face card-front card04">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                    </div>
-
-                    <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--
-<div class="cards-wrapperX4">
-    
-    <div class="cards-wrapper2a">
-            <div class="card-container">
-
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card01">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
                     </div>
                     <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
                     </div>
                 </div>
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card02">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
                     </div>
                     <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
                     </div>
                 </div>
             </div>
-
         </div>
-
         <div class="cards-wrapper2b">
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card03">
-                        <h1 class="front-title title-btn-js">Découvrez2<br>L'Aventure</h1>
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
                     </div>
                     <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
                     </div>
                 </div>
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front  card04">
-                        <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
                     </div>
                     <div class="card-face card-back">
-                        <div class="close-btn close-btn-js"></div>
-                        <div class="back-content">
-                            <h2 class="back-title">Explorez le Monde</h2>
-                            <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                        </div>
-                        <div class="button-container">
-                            <button class="back-button" onclick="alert('Aventure commencée!')">
-                            Voir plus...
-                            </button>
-                        </div>
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-</div>-->
 
-
-<!--OK--> 
-    <!--<div class="cards-wrapper">
-       
-        <div class="card-container">
-
-            <div class="card flip-card-js">
-
-                <div class="card-face card-front">
-                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                </div>
-
-                <div class="card-face card-back">
+    <div class="cards-wrapperX4">
+        <div class="cards-wrapper2a">
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+                    </div>
+                    <div class="card-face card-back">
                     <div class="close-btn close-btn-js"></div>
                     <div class="back-content">
-                        <h2 class="back-title">Explorez le Monde</h2>
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
                         <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
                     </div>
                     <div class="button-container">
@@ -519,22 +234,39 @@
                         Voir plus...
                         </button>
                     </div>
+                    </div>
                 </div>
-
             </div>
         </div>
-        <div class="card-container">
-            
-            <div class="card flip-card-js">
-
-                <div class="card-face card-front">
-                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                </div>
-
-                <div class="card-face card-back">
+        <div class="cards-wrapper2b">
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+                    </div>
+                    <div class="card-face card-back">
                     <div class="close-btn close-btn-js"></div>
                     <div class="back-content">
-                        <h2 class="back-title">Explorez le Monde</h2>
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
                         <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
                     </div>
                     <div class="button-container">
@@ -542,61 +274,190 @@
                         Voir plus...
                         </button>
                     </div>
+                    </div>
                 </div>
-
             </div>
         </div>
-        <div class="card-container">
-            
-            <div class="card flip-card-js">
-
-                <div class="card-face card-front">
-                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                </div>
-
-                <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">Explorez le Monde</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="card-container">
-            
-            <div class="card flip-card-js">
-
-                <div class="card-face card-front">
-                    <h1 class="front-title title-btn-js">Découvrez<br>L'Aventure</h1>
-                </div>
-
-                <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">Explorez le Monde</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-      
     </div>
--->
+
+    <div class="cards-wrapperX4">
+        <div class="cards-wrapper2a">
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-wrapper2b">
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-wrapperX4">
+        <div class="cards-wrapper2a">
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-wrapper2b">
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card01"><!--code CSS 01-->
+                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 01- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Copiez le code
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card flip-card-js">
+                    <div class="card-face card-front card02"><!--code CSS 02-->
+                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    </div>
+                    <div class="card-face card-back">
+                    <div class="close-btn close-btn-js"></div>
+                    <div class="back-content">
+                        <h2 class="back-title">CSS 02- back</h2>
+                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="back-button" onclick="alert('Aventure commencée!')">
+                        Voir plus...
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
 </main>
+
+
+
+
+
+
 
 
 <footer class="main-footer">
