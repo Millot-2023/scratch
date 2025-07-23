@@ -59,8 +59,6 @@
             cursor: pointer;
             transform: rotate(5deg);
         }
-
-
     </style>
 </head>
 
@@ -98,6 +96,7 @@
                 <source srcset="assets/images/hero-2560x1440-index.png" media="(min-width: 769px)">
                 <img src="assets/images/hero-2560x1440-index.png" alt="">
             </picture>
+        </div>
     </section>
 
 <main class="main-content-wrapper" id="procedure-git">
@@ -105,7 +104,6 @@
             <h1 class="h1Black">Titre Principal</h1>
             <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction</h2>
                 <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.
-
                 </p>
                 <p class="text-center-with-margin">
                     <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
@@ -114,43 +112,46 @@
 
 
 
+
+
+
+
+
     <div class="cards-wrapperX4">
         <div class="cards-wrapper2a">
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+
+                    <div class="card-face card-front card01" data-css-code=".card01 { background: linear-gradient(45deg, blue, green); }">
+
+                        <h1 class="front-title title-btn-js">CSS 01...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 01- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    <div class="card-face card-front card02" data-css-code=".card02 { background: linear-gradient(45deg, orange, red); }">
+                        <h1 class="front-title title-btn-js">CSS 02...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 02- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -158,82 +159,79 @@
         <div class="cards-wrapper2b">
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+
+                    <div class="card-face card-front card03" data-css-code=".card03 { background: linear-gradient(45deg, purple, pink); }"> 
+
+                        <h1 class="front-title title-btn-js">CSS 03...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 03- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    <div class="card-face card-front card04" data-css-code=".card04 { background: linear-gradient(45deg, brown, green); }"> 
+                        <h1 class="front-title title-btn-js">CSS 04...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 04- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+
     <div class="cards-wrapperX4">
         <div class="cards-wrapper2a">
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+
+                    <div class="card-face card-front card05" data-css-code=".card05 { background: linear-gradient(45deg, black, grey); }">
+
+                        <h1 class="front-title title-btn-js">CSS 01...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 01- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    <div class="card-face card-front card02" data-css-code=".card02 { background: linear-gradient(45deg, orange, red); }">
+                        <h1 class="front-title title-btn-js">CSS 02...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 02- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -241,210 +239,47 @@
         <div class="cards-wrapper2b">
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
+
+                    <div class="card-face card-front card03" data-css-code=".card03 { background: linear-gradient(45deg, purple, pink); }"> 
+
+                        <h1 class="front-title title-btn-js">CSS 03...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 03- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
+                    <div class="card-face card-front card04" data-css-code=".card04 { background: linear-gradient(45deg, brown, green); }"> 
+                        <h1 class="front-title title-btn-js">CSS 04...</h1>
                     </div>
                     <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
+                        <div class="close-btn close-btn-js"></div>
+                        <div class="back-content">
+                            <h2 class="back-title">CSS 04- back</h2>
+                            <pre><code class="card-css-code-display"></code></pre>
+                        </div>
+                        <div class="button-container">
+                            <button class="back-button">Copiez le code</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="cards-wrapperX4">
-        <div class="cards-wrapper2a">
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cards-wrapper2b">
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="cards-wrapperX4">
-        <div class="cards-wrapper2a">
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cards-wrapper2b">
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card01"><!--code CSS 01-->
-                    <h1 class="front-title title-btn-js">CSS 01...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 01- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Copiez le code
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="card flip-card-js">
-                    <div class="card-face card-front card02"><!--code CSS 02-->
-                    <h1 class="front-title title-btn-js">CSS 02...</h1>
-                    </div>
-                    <div class="card-face card-back">
-                    <div class="close-btn close-btn-js"></div>
-                    <div class="back-content">
-                        <h2 class="back-title">CSS 02- back</h2>
-                        <p class="back-text">Partez à la découverte de paysages époustouflants et d'aventures inoubliables.</p>
-                    </div>
-                    <div class="button-container">
-                        <button class="back-button" onclick="alert('Aventure commencée!')">
-                        Voir plus...
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+
 
 
 
@@ -453,12 +288,7 @@
 
 </main>
 
-
-
-
-
-
-
+<script src="assets/js/texture.js"></script>
 
 <footer class="main-footer">
     <div class="footer-content">
@@ -468,48 +298,9 @@
         </div>
     </div>
 
-
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script> 
     <script src="assets/js/scroll.js"></script> 
 
-    <script>
-    // 1. Sélectionne TOUTES les cartes avec la classe 'flip-card-js'
-    //    document.querySelectorAll() retourne une NodeList de tous les éléments correspondants.
-    const cards = document.querySelectorAll('.flip-card-js');
-
-    // 2. Parcourt chaque carte trouvée dans la NodeList
-    //    Pour chaque 'card' dans la collection 'cards', nous allons configurer ses écouteurs.
-    cards.forEach(card => {
-        // 3. À l'intérieur de la carte actuellement traitée, trouve ses éléments de contrôle spécifiques
-        //    'card.querySelector()' est utilisé ici pour chercher UNIQUEMENT à l'intérieur de la carte actuelle.
-        const titleBtn = card.querySelector('.title-btn-js');
-        const closeBtn = card.querySelector('.close-btn-js');
-        
-        // 4. Déclare une variable d'état propre à chaque carte pour gérer son état de retournement.
-        //    Chaque carte aura son propre 'isFlipped'.
-        let isFlipped = false; 
-
-        // 5. Attache un écouteur d'événement 'click' au titre de la face avant de cette carte.
-        if (titleBtn) { // Vérifie que l'élément 'titleBtn' existe pour éviter des erreurs.
-            titleBtn.addEventListener('click', function(e) {
-                e.stopPropagation(); // Empêche l'événement de se propager à des éléments parents.
-                if (!isFlipped) { // Si la carte n'est pas déjà retournée...
-                    card.classList.add('flipped'); // ...ajoute la classe 'flipped' pour l'animation.
-                    isFlipped = true; // Met à jour l'état de cette carte.
-                }
-            });
-        }
-
-        // 6. Attache un écouteur d'événement 'click' au bouton de fermeture de la face arrière de cette carte.
-        if (closeBtn) { // Vérifie que l'élément 'closeBtn' existe.
-            closeBtn.addEventListener('click', function(e) {
-                e.stopPropagation(); // Empêche l'événement de se propager.
-                card.classList.remove('flipped'); // Retire la classe 'flipped' pour l'animation inverse.
-                isFlipped = false; // Met à jour l'état de cette carte.
-            });
-        }
-    });
-    </script>    
-</footer>
+    </footer>
 </body>
 </html>
