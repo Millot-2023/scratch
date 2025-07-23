@@ -87,7 +87,7 @@
     <section class="hero-section" id="hero-section">
         <div class="hero-image-container">
             <div class="hero-text">
-                <h1>Au service de vos idées</h1>
+                <h1>Au service de vos idées<br>Articles</h1>
             </div>
             <a href="#premier-bloc" class="scroll-down-arrow" aria-label="Faire défiler vers le contenu">
                 <i class="fas fa-chevron-down"></i>
@@ -100,9 +100,12 @@
     </section>
 
 <main class="main-content-wrapper" id="procedure-git">
+
     <div class="introduction animated-content-block" id="premier-bloc">
             <h1 class="h1Black">Titre Principal</h1>
-            <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction</h2>
+            <h2><span class="material-symbols-outlined">construction</span>&nbsp;Les dégradés<!--Introduction--></h2>
+                <p><b>Clic 'n' collect !</b></p>
+                <br>
                 <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.
                 </p>
                 <p class="text-center-with-margin">
@@ -110,12 +113,79 @@
                 </p>
     </div>
 
+            <h2><span class="material-symbols-outlined">construction</span>&nbsp;Les dégradés<!--Introduction--></h2>
+<div class="quatresBlocs">
+
+    <div class="deuxBlocs">
+        <div class="deuxBlocsa">
+            <!--remplacer "stamp1" par "stamp" pour supprimer la rotation-->
+            <!--<picture class="stamp">-->
+            <picture class="">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc01</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.</p>
+            <p class="text-center-with-margin">
+                <!--<a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>-->
+                <a href="#" class="buttonBox ">Bouton</a>
+            </p>
+        </div>
+        <div class="deuxBlocsb">
+            <!--<picture class="stamp">-->
+            <picture class="">
+                <!--<source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">-->
+                <source srcset="assets/images/photo-640x480.png">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc02</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.</p>
+            <p class="text-center-with-margin">
+                <!--<a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>-->
+                <a href="#" class="buttonBox ">Bouton</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="deuxBlocs">
+        <div class="deuxBlocsa">
+            <!--remplacer "stamp1" par "stamp" pour supprimer la rotation-->
+            <!--<picture class="stamp">-->
+            <picture class="">
+                <!--<source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">-->
+                <source srcset="assets/images/photo-640x480.png">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc01</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.</p>
+            <p class="text-center-with-margin">
+                <!--<a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>-->
+                <a href="#" class="buttonBox ">Bouton</a>
+            </p>
+        </div>
+        <div class="deuxBlocsb">
+            <!--<picture class="stamp">-->
+            <picture class="">
+                <!--<source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">-->
+                <source srcset="assets/images/photo-640x480.png">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc02</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.</p>
+            <p class="text-center-with-margin">
+                <!--<a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>-->
+                <a href="#" class="buttonBox ">Bouton</a>
+            </p>
+        </div>
+    </div>
+</div>
 
 
-
-
-
-
+            <h2><span class="material-symbols-outlined">construction</span>&nbsp;Les dégradés<!--Introduction--></h2>
 
     <div class="cards-wrapperX4">
         <div class="cards-wrapper2a">
@@ -123,9 +193,9 @@
                 <div class="card flip-card-js">
 
                     <div class="card-face card-front card01" data-css-code=".card01 { background: linear-gradient(45deg, blue, green); }">
-
                         <h1 class="front-title title-btn-js">CSS 01...</h1>
                     </div>
+
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
@@ -220,7 +290,7 @@
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card02" data-css-code=".card02 { background: linear-gradient(45deg, orange, red); }">
+                    <div class="card-face card-front card06" data-css-code=".card06 { background: linear-gradient(45deg, yellow, red); }">
                         <h1 class="front-title title-btn-js">CSS 06...</h1>
                     </div>
                     <div class="card-face card-back">
@@ -240,7 +310,7 @@
             <div class="card-container">
                 <div class="card flip-card-js">
 
-                    <div class="card-face card-front card03" data-css-code=".card03 { background: linear-gradient(45deg, purple, pink); }"> 
+                    <div class="card-face card-front card07" data-css-code=".card07 { background: linear-gradient(45deg, purple, yellow); }"> 
 
                         <h1 class="front-title title-btn-js">CSS 07...</h1>
                     </div>
@@ -258,7 +328,7 @@
             </div>
             <div class="card-container">
                 <div class="card flip-card-js">
-                    <div class="card-face card-front card04" data-css-code=".card04 { background: linear-gradient(45deg, brown, green); }"> 
+                    <div class="card-face card-front card08" data-css-code=".card08 { background: linear-gradient(45deg, brown, black); }"> 
                         <h1 class="front-title title-btn-js">CSS 08...</h1>
                     </div>
                     <div class="card-face card-back">

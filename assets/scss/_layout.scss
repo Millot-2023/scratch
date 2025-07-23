@@ -1,39 +1,22 @@
 /* Fichier: assets/scss/_layout.scss */
 
 .main-content-wrapper {
-     max-width: 1200px;
-     margin-inline: auto;
-     padding-inline: 40px;/*MARGES LATERALLE DES PAGES*/
-     }
-#premier-bloc {
-     scroll-margin-top: 80px; 
-     }
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 40px;/*MARGES LATERALLE DES PAGES*/
+    }
+
+    #premier-bloc {
+        scroll-margin-top: 80px; 
+        }
+
 /*.logo{
 color:green;
 }*/
 
-.deuxBlocs{
-     /*background-color: red;*/
-     display: flex;
-     flex-direction: column;
-     gap:25px;
-     }
-     .deuxBlocsa{
-    /*background-color: orange;*/
-     display: flex;
-     flex-direction: column;
-     }
-     .deuxBlocsb{
-    /* background-color: orange;*/
-     display: flex;
-     flex-direction: column;
-     }
- .quatresBlocs{
-/* background-color: red;*/
-     display: flex;
-     flex-direction: column;
-     gap:25px;
-     }
+
+
+
 
 /*Persona*/
 /*Persona*/
@@ -133,6 +116,36 @@ width: 100%;
 
 
 
+.quatresBlocs{
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    }
+
+
+
+.deuxBlocs{
+    // background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    }
+    .deuxBlocsa{
+        /*background-color: orange;*/
+        display: flex;
+        flex-direction: column;
+        }
+    .deuxBlocsb{
+        /* background-color: orange;*/
+        display: flex;
+        flex-direction: column;
+        }
+
+
+
+
+
 
 
 
@@ -184,7 +197,10 @@ width: 100%;
           display: flex;
           flex-direction: column;
           }
-.quatresBlocs{
-     /*background-color: green;*/
+ .quatresBlocs{
+    /*background-color: red;*/
+     display: flex;
+     flex-direction: row;
+     gap:25px;
      }
 }

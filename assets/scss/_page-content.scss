@@ -12,25 +12,16 @@
 .stamp:hover {
     cursor: pointer;
     /*transform: rotate(5deg);*/
-}
+    }
 
 .card-container {
     animation: cardAppear 1s ease-out;
-
-    width: 500px;
+    width: 400px;
     height: 200px;/*HAUTEUR DE LA CARTE AU FORMAT MOBILE*/
-
-
-
-
-
     perspective: 1000px;
     margin: 0px auto;
     transform: translateZ(0); /* Ajouté pour l'accélération matérielle */
-}
-
-
-
+    }
 
 /* Application du 'gap' sur les conteneurs flex pour l'espacement */
 .cards-wrapperX4 {
@@ -42,11 +33,6 @@
     width: 100%;
     margin-top: 0px;
     }
-
-
-
-
-
 
 /* Application du 'gap' sur les conteneurs flex pour l'espacement */
 .cards-wrapper2a, .cards-wrapper2b {
@@ -131,6 +117,8 @@
     z-index: 1; /* S'assurer qu'il est en dessous du titre */
 }
 
+
+/*FRONT TITLE*/
 .front-title {
     position: relative;
     z-index: 2;
@@ -139,7 +127,13 @@
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 20px 30px;
+
+
+    padding: 10px 20px;
+
+
+
+
     background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -147,10 +141,12 @@
     transition: all 0.3s ease;
     box-sizing: border-box;
 }
-.front-title:hover {
-    background: rgba(0, 0, 0, 0.5);
-    transform: scale(1.05);
-}
+/*/FRONT TITLE*/
+
+    .front-title:hover {
+        background: rgba(0, 0, 0, 0.5);
+        transform: scale(1.05);
+    }
 
 .card-back {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -258,6 +254,11 @@
 }
 /* .back-text est géré ci-dessus */
 
+
+
+
+
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -282,6 +283,12 @@
     transform: translateY(0);
     box-shadow: 0 0px 0px black;
 }
+
+
+
+
+
+
 
 @keyframes cardAppear {
     from {

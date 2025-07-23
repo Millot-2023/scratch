@@ -484,7 +484,7 @@ code {
 
 .card-container {
   animation: cardAppear 1s ease-out;
-  width: 500px;
+  width: 400px;
   height: 200px; /*HAUTEUR DE LA CARTE AU FORMAT MOBILE*/
   perspective: 1000px;
   margin: 0px auto;
@@ -601,6 +601,7 @@ code {
   z-index: 1; /* S'assurer qu'il est en dessous du titre */
 }
 
+/*FRONT TITLE*/
 .front-title {
   position: relative;
   z-index: 2;
@@ -609,7 +610,7 @@ code {
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  padding: 20px 30px;
+  padding: 10px 20px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -618,6 +619,7 @@ code {
   box-sizing: border-box;
 }
 
+/*/FRONT TITLE*/
 .front-title:hover {
   background: rgba(0, 0, 0, 0.5);
   transform: scale(1.05);
@@ -847,32 +849,6 @@ code {
 /*.logo{
 color:green;
 }*/
-.deuxBlocs {
-  /*background-color: red;*/
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.deuxBlocsa {
-  /*background-color: orange;*/
-  display: flex;
-  flex-direction: column;
-}
-
-.deuxBlocsb {
-  /* background-color: orange;*/
-  display: flex;
-  flex-direction: column;
-}
-
-.quatresBlocs {
-  /* background-color: red;*/
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
 /*Persona*/
 /*Persona*/
 /*Persona*/
@@ -953,6 +929,31 @@ color:green;
   line-height: 1.5;
 }
 
+.quatresBlocs {
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.deuxBlocs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.deuxBlocsa {
+  /*background-color: orange;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.deuxBlocsb {
+  /* background-color: orange;*/
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
   .persona-details {
     grid-template-columns: 1fr 1fr; /* Deux colonnes sur tablette et desktop */
@@ -993,7 +994,10 @@ color:green;
     flex-direction: column;
   }
   .quatresBlocs {
-    /*background-color: green;*/
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
   }
 }
 .hero-section {
