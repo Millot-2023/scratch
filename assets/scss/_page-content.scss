@@ -11,13 +11,19 @@
 }
 .stamp:hover {
     cursor: pointer;
-    transform: rotate(5deg);
+    /*transform: rotate(5deg);*/
 }
 
 .card-container {
     animation: cardAppear 1s ease-out;
-    width: 400px;
-    height: 500px;
+
+    width: 500px;
+    height: 200px;/*HAUTEUR DE LA CARTE AU FORMAT MOBILE*/
+
+
+
+
+
     perspective: 1000px;
     margin: 0px auto;
     transform: translateZ(0); /* Ajouté pour l'accélération matérielle */

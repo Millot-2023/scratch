@@ -129,7 +129,7 @@
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 01- back</h2>
+                            <h2 class="back-title">CSS 01 - back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
@@ -146,7 +146,7 @@
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 02- back</h2>
+                            <h2 class="back-title">CSS 02 - back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
@@ -167,7 +167,7 @@
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 03- back</h2>
+                            <h2 class="back-title">CSS 03 - back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
@@ -184,7 +184,7 @@
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 04- back</h2>
+                            <h2 class="back-title">CSS 04 - back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
@@ -204,12 +204,12 @@
 
                     <div class="card-face card-front card05" data-css-code=".card05 { background: linear-gradient(45deg, black, grey); }">
 
-                        <h1 class="front-title title-btn-js">CSS 01...</h1>
+                        <h1 class="front-title title-btn-js">CSS 05...</h1>
                     </div>
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 01- back</h2>
+                            <h2 class="back-title">CSS 05 - back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
@@ -221,12 +221,12 @@
             <div class="card-container">
                 <div class="card flip-card-js">
                     <div class="card-face card-front card02" data-css-code=".card02 { background: linear-gradient(45deg, orange, red); }">
-                        <h1 class="front-title title-btn-js">CSS 02...</h1>
+                        <h1 class="front-title title-btn-js">CSS 06...</h1>
                     </div>
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 02- back</h2>
+                            <h2 class="back-title">CSS 06 - back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
@@ -242,12 +242,12 @@
 
                     <div class="card-face card-front card03" data-css-code=".card03 { background: linear-gradient(45deg, purple, pink); }"> 
 
-                        <h1 class="front-title title-btn-js">CSS 03...</h1>
+                        <h1 class="front-title title-btn-js">CSS 07...</h1>
                     </div>
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 03- back</h2>
+                            <h2 class="back-title">CSS 07 - back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
@@ -259,12 +259,12 @@
             <div class="card-container">
                 <div class="card flip-card-js">
                     <div class="card-face card-front card04" data-css-code=".card04 { background: linear-gradient(45deg, brown, green); }"> 
-                        <h1 class="front-title title-btn-js">CSS 04...</h1>
+                        <h1 class="front-title title-btn-js">CSS 08...</h1>
                     </div>
                     <div class="card-face card-back">
                         <div class="close-btn close-btn-js"></div>
                         <div class="back-content">
-                            <h2 class="back-title">CSS 04- back</h2>
+                            <h2 class="back-title">CSS 08- back</h2>
                             <pre><code class="card-css-code-display"></code></pre>
                         </div>
                         <div class="button-container">
