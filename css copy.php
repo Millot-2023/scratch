@@ -65,31 +65,30 @@
 <body>
 
 <header class="main-header">
-        <!--NAV-->
-        <nav class="main-nav">
-                    <a href="index.php" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Scratch Partials</a> 
-                    
-                    <div class="nav-right-container">
-                        <ul class="nav-menu" id="main-nav-menu">
+    <nav class="main-nav">
+        <a href="index.php" class="logo">
+            <i class="fa-solid fa-hammer">
+            </i>&nbsp;Site vers Scratch</a> 
+        <div class="nav-right-container">
+            <ul class="nav-menu" id="main-nav-menu">
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="articles.php">Articles</a></li> 
                 <li><a href="css.php">CSS</a></li> 
                 <li><a href="templates.php">Templates</a></li> 
-                        </ul>
-                        <button class="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="main-nav-menu">
-                            <span class="hamburger"></span>
-                            <span class="hamburger"></span>
-                            <span class="hamburger"></span>
-                        </button>
-                    </div>
-        </nav>
-        <!--/NAV-->
+            </ul>
+            <button class="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="main-nav-menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
 </header>
 
 <section class="hero-section" id="hero-section">
     <div class="hero-image-container">
         <div class="hero-text">
-            <h1><!--Au service de vos idées<br>-->Articles</h1>
+            <h1>Au service de vos idées<br>Articles</h1>
         </div>
         <a href="#premier-bloc" class="scroll-down-arrow" aria-label="Faire défiler vers le contenu">
             <i class="fas fa-chevron-down"></i>
@@ -105,7 +104,7 @@
     <div class="introduction animated-content-block" id="premier-bloc">
         <h1 class="h1Black">Page Articles</h1>
 
-        <h2><span class="material-symbols-outlined">construction</span>&nbsp;2 Blocs - Introduction</h2>
+        <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction - 2 Blocs</h2>
 
         <div class="introduction-inner">
                 <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai appris les principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
@@ -116,11 +115,9 @@
         </p>
     </div>
 
-    <h2><span class="material-symbols-outlined">construction</span>&nbsp;4 Blocs<!--Introduction--></h2>
-
-
+<!--
+<h2><span class="material-symbols-outlined">construction</span>&nbsp;4 Blocs</h2>
 <div class="quatresBlocs">
-
     <div class="deuxBlocs">
 
         <div class="deuxBlocsa paragraphe-inner">
@@ -134,7 +131,6 @@
             <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai appris les principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.
             </p>
             <p class="text-center-with-margin">
-                <!--<a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>-->
                 <a href="#" class="buttonBox ">Bouton</a>
             </p>
         </div>
@@ -166,14 +162,12 @@
             <h4>Bloc03</h4>
                 <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai appris les principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
             <p class="text-center-with-margin">
-                <!--<a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>-->
                 <a href="#" class="buttonBox ">Bouton</a>
             </p>
                    
         </div>
         <div class="deuxBlocsb paragraphe-inner">
             <picture class="">
-                <!--<source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">-->
                 <source srcset="assets/images/photo-640x480.png">
                 <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
                 <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
@@ -181,15 +175,15 @@
             <h4>Bloc04</h4>
                 <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai appris les principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
             <p class="text-center-with-margin">
-                <!--<a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>-->
                 <a href="#" class="buttonBox ">Bouton</a>
             </p>
         </div>
     </div>
 </div>
+-->
 
 
-<h2><span class="material-symbols-outlined">construction</span>&nbsp;Les dégradés<!--Introduction--></h2>
+<h2><span class="material-symbols-outlined">construction</span>&nbsp;Les dégradés</h2>
 
 <div class="cards-wrapperX4">
         <div class="cards-wrapper2a">
@@ -268,7 +262,7 @@
                 </div>
             </div>
         </div>
-    </div>
+</div>
 
 
     <div class="cards-wrapperX4">

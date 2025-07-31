@@ -7,13 +7,63 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://picsum.photos">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <style>
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined' !important; /* La ligne cruciale pour définir la police */
+            /*font-weight: normal !important; 
+            font-style: normal !important; */
+            font-size: 48px !important; /* Taille augmentée pour une meilleure visibilité */
+            /*line-height: 1 !important; */
+            letter-spacing: normal !important;
+            text-transform: none !important;
+            white-space: nowrap !important;
+            word-wrap: normal !important;
+            direction: ltr !important;
+            -webkit-font-smoothing: antialiased !important;
+            text-rendering: optimizeLegibility !important;
+            -moz-osx-font-smoothing: grayscale !important;
+            
+            /* Paramètres variables des Material Symbols pour contrôler leur apparence */
+            font-variation-settings:
+                'FILL' 0,  /* 0 pour le contour, 1 pour le rempli */
+                'wght' 400, /* Poids/épaisseur de l'icône (100 à 700) */
+                'GRAD' 0   /* Grade (intensité visuelle) (-25 à 200) */
+                !important; 
+            
+            display: inline-block !important; /* Assure un affichage correct en ligne */
+
+            color: yellow !important; /* Couleur vive pour un test facile */
+
+        position: relative; /* Très important pour pouvoir utiliser 'top' */
+        top: 5px; /* Ajuste cette valeur en pixels (ex: 5px, 10px, 15px) */
+        /* Ou tu peux utiliser un padding-top si ça correspond mieux à ta mise en page */
+        /* padding-top: 5px; */
+
+
+        /* PROPRIÉTÉS POUR LE CONTOUR NOIR */
+        -webkit-text-stroke: 1px black; /* Pour les navigateurs basés sur WebKit (Chrome, Safari, Edge) */
+        text-stroke: 1px black;         /* Standard CSS */
+        
+        /* Optionnel: Si vous voulez que l'intérieur soit transparent pour n'avoir que le contour */
+        -webkit-text-fill-color: white; /* Pour les navigateurs WebKit */
+        text-fill-color: transparent;         /* Standard CSS */
+
+
+
+            
+        }
+    </style>
+
 </head>
 
 <body>
@@ -21,12 +71,12 @@
     <header class="main-header">
         <!--NAV-->
         <nav class="main-nav">
-                    <a href="index.html" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Site vers Scratch</a> 
+                    <a href="index.php" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Scratch Partials</a> 
                     <div class="nav-right-container">
                         <ul class="nav-menu" id="main-nav-menu">
-                            <li><a href="index.html">Accueil</a></li>
-                            <li><a href="articles.html">Articles</a></li> 
-                            <li><a href="templates.html">Templates</a></li> 
+                            <li><a href="index.php">Accueil</a></li>
+                            <li><a href="articles.php">Articles</a></li> 
+                            <li><a href="templates.php">Templates</a></li> 
                         </ul>
                         <button class="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="main-nav-menu">
                             <span class="hamburger"></span>
@@ -66,10 +116,11 @@
 </section>
 
 <main class="main-content-wrapper" id="procedure-git"><!--INTRODUCTION-->
-    <div class="introduction animated-content-block" id="premier-bloc">
-    <h1 class="h1Black">Titre Principal</h1>
 
-    <h2><i class="fa-solid fa-hammer"></i>&nbsp;Introduction</h2>
+    <div class="introduction animated-content-block" id="premier-bloc">
+        <h1 class="h1Black">Titre Principal</h1>
+        <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction</h2>
+
     <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
     <p class="text-center-with-margin">
     <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
@@ -199,7 +250,7 @@
         <!--Persona-->
         <section class="persona-card">
         <div class="persona-header">
-        <img src="assets/images/persona-avatar.png" alt="Avatar de Persona" class="persona-avatar">
+        <img src="assets/images/photo-120x160.png" alt="Avatar de Persona" class="persona-avatar">
         <p class="personaName">Alice Dupont</p>
         <p class="persona-role">Développeuse Web Junior</p>
         </div>
@@ -239,38 +290,6 @@
         </div>
         </section>
         <!--/Persona-->
-
-
-<section class="symboles">
-
-<i class="fa-solid fa-hammer"></i>
-<i class="fa-solid fa-wrench"></i>
-<i class="fa-solid fa-hard-hat"></i>
-<i class="fa-solid fa-helmet-safety"></i>
-
-<i class="fa-solid fa-cone-vance"></i>
-<i class="fa-solid fa-road-cone"></i>
-
-<i class="fa-solid fa-signs-post"></i>
-<i class="fa-solid fa-road-barrier"></i>
-
-<i class="fa-solid fa-gear"></i>
-<i class="fa-solid fa-gears"></i>
-
-<i class="fa-solid fa-dump-truck"></i>
-
-Marteau (fa-hammer)
-Clé à molette (fa-wrench)
-Casque de chantier (fa-hard-hat ou fa-helmet-safety)
-Cone de signalisation (fa-cone-vance ou fa-road-cone)
-Panneaux de signalisation (divers comme fa-signs-post, fa-road-barrier, etc.)
-Engrenages (fa-gear, fa-gears)
-
-Camion benne (fa-dump-truck)
-
-</section>
-
-
 
 </main>
 

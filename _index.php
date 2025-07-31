@@ -71,7 +71,7 @@
     <header class="main-header">
         <!--NAV-->
         <nav class="main-nav">
-                    <a href="index.html" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Site vers Scratch</a> 
+                    <a href="index.php" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Scratch Partials</a> 
                     <div class="nav-right-container">
                         <ul class="nav-menu" id="main-nav-menu">
                             <li><a href="index.html">Accueil</a></li>

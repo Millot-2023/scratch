@@ -1,4 +1,16 @@
-<!DOCTYPE html>
+<?php
+// C:\xampp\htdocs\catalogue\index.php
+
+include '_partials/header.php';
+include '_partials/main_contentIndex.php';
+include '_partials/footer.php';
+?>
+
+
+
+
+
+<!--<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -69,15 +81,16 @@
 <body>
 
     <header class="main-header">
-        <!--NAV-->
+
         <nav class="main-nav">
-                    <a href="index.php" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Site vers Scratch</a>
+                    <a href="index.php" class="logo"><i class="fa-solid fa-hammer"></i>&nbsp;Scratch Partials</a> 
                     
                     <div class="nav-right-container">
                         <ul class="nav-menu" id="main-nav-menu">
-                            <li><a href="index.php">Accueil</a></li>
-                            <li><a href="articles.php">Articles</a></li> 
-                            <li><a href="templates.php">Templates</a></li> 
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="articles.php">Articles</a></li> 
+                <li><a href="articles.php">CSS</a></li> 
+                <li><a href="templates.php">Templates</a></li> 
                         </ul>
                         <button class="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="main-nav-menu">
                             <span class="hamburger"></span>
@@ -86,10 +99,7 @@
                         </button>
                     </div>
         </nav>
-        <!--/NAV-->
     </header>
-
-    <!--HERO-->
         <section class="hero-section" id="hero-section">
                 <div class="hero-image-container">
                     <div class="hero-text">
@@ -102,56 +112,41 @@
                         <source srcset="assets/images/hero-2560x1440-index.png" media="(min-width: 769px)">
                         <img src="assets/images/hero-2560x1440-index.png" alt="">
                     </picture>
-<!--
-<picture>
-    <source srcset="assets/images/image-large.webp" media="(min-width: 1200px)" type="image/webp">
-    <source srcset="assets/images/image-large.jpg" media="(min-width: 1200px)" type="image/jpeg">
-
-    <source srcset="assets/images/image-medium.webp" media="(min-width: 768px)" type="image/webp">
-    <source srcset="assets/images/image-medium.jpg" media="(min-width: 768px)" type="image/jpeg">
-
-    <img src="assets/images/image-small.jpg" alt="Description de l'image" loading="lazy">
-</picture>-->
-
-
 </section>
 
-<main class="main-content-wrapper" id="procedure-git"><!--INTRODUCTION-->
+<main class="main-content-wrapper" id="procedure-git">
 
     <div class="introduction animated-content-block" id="premier-bloc">
+
         <h1 class="h1Black">Titre Principal</h1>
         <h2><span class="material-symbols-outlined">construction</span>&nbsp;Introduction</h2>
-
-    <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-    <p class="text-center-with-margin">
-    <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
-    </p>
-    </div><!--/INTRODUCTION-->
-
+            <div class="introduction-inner">
+                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            </div>
+        <p class="text-center-with-margin">
+        <a href="#" class="buttonBox ">BOUTON PRINCIPAL</a>
+        </p>
+    </div>
 
 <h3 class="animated-content-block">2 blocs</h3>
+
     <div class="deuxBlocs">
+
         <div class="deuxBlocsa">
-            <!--remplacer "stamp1" par "stamp" pour supprimer la rotation-->
-
-
-
 
             <picture class="stamp">
                 <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
                 <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
                 <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
             </picture>
-
-
-
-
             <h4>Bloc01</h4>
             <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
             <p class="text-center-with-margin">
                 <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
             </p>
         </div>
+
         <div class="deuxBlocsb">
             <picture class="stamp">
                 <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
@@ -164,69 +159,75 @@
                 <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
             </p>
         </div>
+
     </div>
-    </div>
+
 
 
 <h3>4 blocs</h3>
 
 <div class="quatresBlocs">
-    <div class="deuxBlocs">
-        <div class="deuxBlocsa">
-            <!--remplacer "stamp1" par "stamp" pour supprimer la rotation-->
-            <picture class="stamp">
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-            </picture>
-            <h4>Bloc01</h4>
-            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-            <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-            </p>
-        </div>
-        <div class="deuxBlocsb">
-            <picture class="stamp">
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-            </picture>
-            <h4>Bloc02</h4>
-            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-            <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-            </p>
-        </div>
-    </div>
-    <div class="deuxBlocs">
-        <div class="deuxBlocsa">
-            <picture class="stamp">
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-            </picture>
-            <h4>Bloc03</h4>
-            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-            <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-            </p>
-        </div>
-        <div class="deuxBlocsb">
-            <picture class="stamp">
-                <source srcset="assets/images/photo-1200x960.png" media="(min-width: 1200px)" type="image/jpeg">
-                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
-                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
-            </picture>
-            <h4>Bloc03</h4>
-            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
-            <p class="text-center-with-margin">
-                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
-            </p>
-        </div>
-    </div>
-</div>
 
-        <!--Persona-->
+    <div class="deuxBlocs">
+        <div class="deuxBlocsa paragraphe-inner">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc03</h4>
+                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
+
+                <a href="#" class="buttonBox ">Bouton</a>
+            </p>
+                   
+        </div>
+        <div class="deuxBlocsb paragraphe-inner">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc04</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
+                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="deuxBlocs">
+        <div class="deuxBlocsa paragraphe-inner">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc05</h4>
+                <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
+
+                <a href="#" class="buttonBox ">Bouton</a>
+            </p>
+                   
+        </div>
+        <div class="deuxBlocsb paragraphe-inner">
+            <picture class="stamp">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 1200px)" type="image/jpeg">
+                <source srcset="assets/images/photo-640x480.png" media="(min-width: 768px)" type="image/jpeg">
+                <img src="assets/images/photo-1200x960.png" alt="Description de l'image" loading="lazy">
+            </picture>
+            <h4>Bloc06</h4>
+            <p>Mon parcours débute là où l'art prend forme sous les doigts : dans les ateliers de dessin,de peinture et de sculpture. C'est avec le crayon, le pinceau et la terre que j'ai apprisles principes fondamentaux de la composition, des volumes, des couleurs et des lumières.Ces années dédiées aux arts plastiques, enrichies par des expériences en modélisme,sont la pierre angulaire de ma vision créative et nourrissent chaque projet numériqueavec une compréhension intuitive de l'esthétique et de la forme.</p>
+            <p class="text-center-with-margin">
+                <a href="#" class="buttonBox ">Découvrir mes influences artistiques</a>
+            </p>
+        </div>
+    </div>
+
+</div>
         <section class="persona-card">
             <div class="persona-header">
                 <img src="assets/images/photo-120x160.png" alt="Avatar de Persona" class="">
@@ -266,10 +267,7 @@
                 </div>
             </div>
         </section>
-        <!--/Persona-->
-
     </main>
-
 
 <footer class="main-footer">
     <div class="footer-content">
@@ -284,4 +282,4 @@
 <script src="assets/js/scroll.js"></script> 
 
 </body>
-</html>
+</html>-->

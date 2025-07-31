@@ -1,6 +1,12 @@
 /* Fichier: C:\xampp\htdocs\scratch\assets\scss\_animations.scss */
 
 // Styles initiaux pour les éléments qui doivent apparaître au scroll
+
+
+
+
+/*Animation*/
+
 .animated-content-block { 
     opacity: 0; 
     transition: opacity 1s ease-out; /* Seulement le fondu, pas de déplacement */

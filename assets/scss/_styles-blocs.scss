@@ -1,0 +1,64 @@
+.introduction-inner{
+    background-color: rgba(255, 255, 255, 0.2);
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+    padding: 5px;
+    }
+
+
+
+.introduction-inner p::first-letter {
+    font-size: 3em; /* Rend la première lettre beaucoup plus grande */
+    color: #007bff; /* Change sa couleur en bleu */
+    font-family: 'Georgia', serif; /* Utilise une police stylisée pour la lettrine */
+    font-weight: bold; /* La met en gras */
+    float: left; /* Fait flotter la lettre à gauche, permettant au texte de l'entourer */
+    line-height: 1; /* Ajuste la hauteur de ligne pour éviter des espaces inattendus */
+    margin-right: 8px; /* Ajoute un espace à droite de la lettrine */
+    padding-top: 0px; /* Petit ajustement pour l'alignement vertical */
+    }
+
+
+
+.paragraphe-inner p::first-letter {
+    font-size: 3em; /* Rend la première lettre beaucoup plus grande */
+    color: #007bff; /* Change sa couleur en bleu */
+    font-family: 'Georgia', serif; /* Utilise une police stylisée pour la lettrine */
+    font-weight: bold; /* La met en gras */
+    float: left; /* Fait flotter la lettre à gauche, permettant au texte de l'entourer */
+    line-height: 1; /* Ajuste la hauteur de ligne pour éviter des espaces inattendus */
+    margin-right: 8px; /* Ajoute un espace à droite de la lettrine */
+    padding-top: 0px; /* Petit ajustement pour l'alignement vertical */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .introduction-inner{
+        /*background-color: orange;*/
+        display:flex;
+        flex-direction: row;
+        }
+    }
+
+@media (min-width: 1200px) {
+
+    .introduction-inner{
+        /*background-color: green;*/
+        display:flex;
+        flex-direction: row;
+        }
+    }

@@ -2,24 +2,31 @@
 
 /* Styles généraux pour tous les liens */
 a {
-    /*color: #007bff;*/ /* Couleur par défaut de tes liens (exemple : un bleu plus doux) */
-    text-decoration: none; /* Supprime le soulignement par défaut */
-    /*transition: color 0.3s ease;*/ /* Ajoute une transition douce pour les changements de couleur */
+    /*color: #007bff;*/
+    text-decoration: none;
+    /*transition: color 0.3s ease;*/
 
-    &:link { /* Imbrication pour les liens non visités */
+    &:link { /* Liens non visités */
         color: #007bff;
     }
 
-    &:visited { /* Imbrication pour les liens visités */
-        color: #6610f2; /* Une couleur légèrement différente pour les liens visités si tu le souhaites */
+    &:visited { /* Liens visités */
+        color: #6610f2;
     }
 
-    &:hover { /* Imbrication pour le survol */
-        color: red; /* OKOKOK */
-        text-decoration: none; /* Pas de soulignement au survol */
+    &:hover { /* Survol */
+        // Ces styles s'appliquent UNIQUEMENT au survol
+
+
+        /* <--- C'est ici qu'il doit être ! */
+        /*cursor: zoom-in;*/
+        /* <--- C'est ici qu'il doit être ! */
+
+        color: red;
+        text-decoration: none;
     }
 
-    &:active { /* Imbrication pour le clic (état actif) */
-        color: #e86107; /* Couleur quand le lien est cliqué */
+    &:active { /* Clic (état actif) */
+        color: #e86107;
     }
 }

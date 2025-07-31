@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
+
+		margin: 0;
+	padding: 0;
 }
 ol, ul {
 	list-style: none;
@@ -51,9 +55,13 @@ table {
 /* AJOUT IMPORTANT POUR LE BOX-MODEL MODERNE ET LE RESPONSIVE */
 html {
     box-sizing: border-box;
+
 }
 *, *::before, *::after {
     box-sizing: inherit;
+
+
+
 }
 
 /* AJOUT RECOMMANDÉ POUR LES IMAGES RESPONSIVES */

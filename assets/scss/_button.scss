@@ -9,20 +9,34 @@
   border: 1px dashed #000;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0);
+background-color: rgba(255, 255, 255, 0.40);
 }
 
 
 .text-center-with-margin .buttonBox:hover {
-background-color: rgba(0, 0, 0, 0.30);
-padding: calc(1em + 1px) calc(2em + 1px);
-border: 0px dashed #000;
-color: white;
-box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
-}
+  cursor: url('/scratchPartials/assets/images/cursor.cur'), auto;
+  background-color: rgba(255, 255, 255, 0.80);
+  padding: calc(1em + 1px) calc(2em + 1px);
+  border: 0px dashed #000;
+  color: black;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+
+
+  /*background-color: rgba(255, 255, 255, 0.30);*/
+  /* <--- C'est ici qu'il doit être ! */
+  /*cursor: zoom-in;*/
+  /* <--- C'est ici qu'il doit être ! */
+  /*cursor: url('/scratchPartials/assets/images/curser-detective.cur'), auto;*/
+
+  }
+
 
 
 .text-center-with-margin .buttonBox:active {
+
+  cursor:pointer;
+
+
   background-color: rgba(0, 0, 0, 0.15);
   color: black; 
   mix-blend-mode: multiply;

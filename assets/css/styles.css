@@ -32,6 +32,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  margin: 0;
+  padding: 0;
 }
 
 ol, ul {
@@ -67,16 +69,6 @@ img {
   max-width: 100%; /* Assure que l'image ne dépasse jamais la largeur de son parent */
   height: auto; /* Maintient les proportions de l'image */
   display: block; /* Élimine l'espace supplémentaire en bas des images (si elles sont inline) */
-}
-
-body {
-  /*background-color: #fffef5;*/
-  /*background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");*/
-  background-color: #fffbe3;
-  background-image: url("https://www.transparenttextures.com/patterns/paper-3.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  font-weight: 400;
-  line-height: 1.6;
 }
 
 h1 {
@@ -479,7 +471,7 @@ code {
 
 .stamp:hover {
   cursor: pointer;
-  /*transform: rotate(5deg);*/
+  transform: rotate(5deg); /*ROTATION DE L4IMAGE*/
 }
 
 .card-container {
@@ -937,6 +929,7 @@ color:green;
 }
 
 .deuxBlocs {
+  /*background-color: blue;*/
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -955,6 +948,7 @@ color:green;
 }
 
 @media (min-width: 768px) {
+  /*@media (min-width: 992px) {*/
   .persona-details {
     grid-template-columns: 1fr 1fr; /* Deux colonnes sur tablette et desktop */
   }
@@ -1134,22 +1128,25 @@ color:green;
 /* Fichier: assets/scss/_base.scss ou _styles.scss */
 /* Styles généraux pour tous les liens */
 a {
-  /*color: #007bff;*/ /* Couleur par défaut de tes liens (exemple : un bleu plus doux) */
-  text-decoration: none; /* Supprime le soulignement par défaut */
-  /*transition: color 0.3s ease;*/ /* Ajoute une transition douce pour les changements de couleur */
+  /*color: #007bff;*/
+  text-decoration: none;
+  /*transition: color 0.3s ease;*/
 }
-a:link { /* Imbrication pour les liens non visités */
+a:link { /* Liens non visités */
   color: #007bff;
 }
-a:visited { /* Imbrication pour les liens visités */
-  color: #6610f2; /* Une couleur légèrement différente pour les liens visités si tu le souhaites */
+a:visited { /* Liens visités */
+  color: #6610f2;
 }
-a:hover { /* Imbrication pour le survol */
-  color: red; /* OKOKOK */
-  text-decoration: none; /* Pas de soulignement au survol */
+a:hover { /* Survol */
+  /* <--- C'est ici qu'il doit être ! */
+  /*cursor: zoom-in;*/
+  /* <--- C'est ici qu'il doit être ! */
+  color: red;
+  text-decoration: none;
 }
-a:active { /* Imbrication pour le clic (état actif) */
-  color: #e86107; /* Couleur quand le lien est cliqué */
+a:active { /* Clic (état actif) */
+  color: #e86107;
 }
 
 .buttonBox {
@@ -1161,18 +1158,25 @@ a:active { /* Imbrication pour le clic (état actif) */
   border: 1px dashed #000;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .text-center-with-margin .buttonBox:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  cursor: url("/scratchPartials/assets/images/cursor.cur"), auto;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: calc(1em + 1px) calc(2em + 1px);
   border: 0px dashed #000;
-  color: white;
+  color: black;
   box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  /*background-color: rgba(255, 255, 255, 0.30);*/
+  /* <--- C'est ici qu'il doit être ! */
+  /*cursor: zoom-in;*/
+  /* <--- C'est ici qu'il doit être ! */
+  /*cursor: url('/scratchPartials/assets/images/curser-detective.cur'), auto;*/
 }
 
 .text-center-with-margin .buttonBox:active {
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0.15);
   color: black;
   mix-blend-mode: multiply;
@@ -1195,7 +1199,52 @@ p {
   line-height: 25px;
 }
 
+.introduction-inner {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+}
+
+.introduction-inner p::first-letter {
+  font-size: 3em; /* Rend la première lettre beaucoup plus grande */
+  color: #007bff; /* Change sa couleur en bleu */
+  font-family: "Georgia", serif; /* Utilise une police stylisée pour la lettrine */
+  font-weight: bold; /* La met en gras */
+  float: left; /* Fait flotter la lettre à gauche, permettant au texte de l'entourer */
+  line-height: 1; /* Ajuste la hauteur de ligne pour éviter des espaces inattendus */
+  margin-right: 8px; /* Ajoute un espace à droite de la lettrine */
+  padding-top: 0px; /* Petit ajustement pour l'alignement vertical */
+}
+
+.paragraphe-inner p::first-letter {
+  font-size: 3em; /* Rend la première lettre beaucoup plus grande */
+  color: #007bff; /* Change sa couleur en bleu */
+  font-family: "Georgia", serif; /* Utilise une police stylisée pour la lettrine */
+  font-weight: bold; /* La met en gras */
+  float: left; /* Fait flotter la lettre à gauche, permettant au texte de l'entourer */
+  line-height: 1; /* Ajuste la hauteur de ligne pour éviter des espaces inattendus */
+  margin-right: 8px; /* Ajoute un espace à droite de la lettrine */
+  padding-top: 0px; /* Petit ajustement pour l'alignement vertical */
+}
+
+@media (min-width: 992px) {
+  .introduction-inner {
+    /*background-color: orange;*/
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  .introduction-inner {
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: row;
+  }
+}
 /* Fichier: C:\xampp\htdocs\scratch\assets\scss\_animations.scss */
+/*Animation*/
 .animated-content-block {
   opacity: 0;
   transition: opacity 1s ease-out; /* Seulement le fondu, pas de déplacement */
@@ -1242,6 +1291,26 @@ p {
   white-space: pre-wrap;
   padding: 10px;
   border-radius: 5px;
+}
+
+body {
+  /*
+  background-color: #c73500;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  */
+  /*
+  background-color: #004f8c;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  */
+  /*
+  background-color: #fffbe3;
+  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  */
+  background-color: #fffbe3;
+  background-image: url("https://www.transparenttextures.com/patterns/paper-3.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 #premier-bloc {
